@@ -178,7 +178,7 @@ function buildPage(pageName) {
   html = html.replace("{{js_modules}}", jsModules);
 
   const baseUrl = "https://www.ezheatandair.com";
-  const pageUrl = pageName === "home" ? "" : `${pageName}.html`;
+  const pageUrl = pageName === "home" ? "" : `${pageName}`;
   const canonicalUrl = `${baseUrl}/${pageUrl}`;
   const canonicalLink = `<link rel="canonical" href="${canonicalUrl}" />`;
   html = html.split("{{canonical}}").join(canonicalLink);

@@ -4,7 +4,7 @@
 .hero-section {
     position: relative;
     padding: 50px 0;
-    background: radial-gradient(98.75% 509.43% at 0px 10.41%, rgb(255, 255, 255) 0px, rgb(49, 160, 91) 100%), url('../../assets/images/hero-bg-2.webp') no-repeat right bottom;
+    background: radial-gradient(98.75% 509.43% at 0px 10.41%, rgb(255, 255, 255) 0px, rgb(49, 160, 91) 100%), url("assets/hero-bg-2.webp") no-repeat right bottom;
     background-size: cover, 700px auto;
     background-position: left center, bottom right;
     background-blend-mode: normal, normal;
@@ -295,7 +295,7 @@
     content: "" !important;
     width: 20px !important;
     height: 20px !important;
-    background-image: url("../../assets/images/less.webp") !important;
+    background-image: url("assets/less.webp") !important;
     background-size: 100% !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -304,7 +304,7 @@
 }
 
 .accordion-button.collapsed::after {
-    background-image: url("../../assets/images/pluse.webp") !important;
+    background-image: url("assets/pluse.webp") !important;
     transform: translateY(-50%) !important;
 }
 
@@ -514,7 +514,7 @@
 }
 
 .maintenance .service-item::before {
-    background-image: url("../../assets/images/service-right-icon.webp");
+    background-image: url("assets/service-right-icon.webp");
     background-position: 0% 0%;
     width: 24px;
     height: 24px;

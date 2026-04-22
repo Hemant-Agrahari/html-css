@@ -1,505 +1,688 @@
-/* ==========================================
-   Blog Detail Page - Exact Reference Styles
-   Values extracted from ezheatandair.com CSS
-   ========================================== */
+/* AC Coil Cleaner Custom Styles */
 
-/* Remove any default gap between header and content */
-.page-header,
-.navbar {
-    padding-bottom: 0px !important;
+/* ==========================================================================
+   1. General Styles & Slick Utilities
+   ========================================================================== */
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Slick Utility Styles */
+.serviceTemplate .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.serviceTemplate .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.serviceTemplate .slick-slide>div {
+    display: flex;
+    width: 100%;
+}
+
+/* Global Slick Dots customization */
+.serviceTemplate .slick-dots {
+    margin-top: 30px !important;
+    position: static;
+}
+
+.serviceTemplate .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.serviceTemplate .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    background: #D9D9D9 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .slick-dots li button:before {
+    display: none;
+}
+
+.serviceTemplate .slick-dots li.slick-active button {
+    width: 40px;
+    background: #319A52 !important;
+    border-radius: 40px;
+}
+
+/* Utility section title */
+.serviceTemplate .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: 43.2px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.content-text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   2. Breadcrumbs CSS
+   ========================================================================== */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+}
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb span,
+.serviceTemplate .home-breadcrumb .about-us1 {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+}
+
+/* ==========================================================================
+   3. Hero Section CSS
+   ========================================================================== */
+.serviceTemplate .banner {
+    padding: 60px 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* Banner row: content starts from top, not vertically centered */
+.serviceTemplate .banner .row {
+    align-items: flex-start !important;
+}
+
+.serviceTemplate .immediate-slab-leak-detection {
+    max-width: 784px;
+}
+
+.serviceTemplate .immediate-slab-leak {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    margin-bottom: 0px;
+    line-height: 43.2px;
+    font-family: 'Inter', sans-serif;
+}
+
+.serviceTemplate .slab-leak-detection {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.serviceTemplate .slab-leak-detection p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+.serviceTemplate .slab-leak-detection p:last-child {
+    margin-bottom: 0;
+}
+
+/* Hero Contact Form - Self-Contained Parity Overhaul */
+.serviceTemplate .banner-contact-form {
+    border-radius: 12px !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .contact-form {
+    max-width: 452px !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+
+.serviceTemplate .form-wrapper {
+    padding: 60px 40px 30px 40px !important;
+    background: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    max-width: 412px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.serviceTemplate .form-group {
+    margin-bottom: 18px !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .form-label {
+    display: block !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #2c3345 !important;
+    margin-bottom: 8px !important;
+    line-height: 25.2px !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate .form-control {
+    width: 100% !important;
+    height: 36px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #acacac !important;
+    border-radius: 5px !important;
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: #2c3345 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate textarea.form-control {
+    height: 54px !important;
+    resize: none !important;
+}
+
+.serviceTemplate .input-wrapper {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .icon-email {
+    position: absolute !important;
+    left: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 16px !important;
+    height: 16px !important;
+    color: #8c8c8c !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.serviceTemplate .icon-email svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.serviceTemplate .input-wrapper input[type="email"] {
+    padding-left: 36px !important;
+}
+
+.serviceTemplate .btn-primary {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 45px !important;
+    background-color: #18bd5b !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 0 50px !important;
+    line-height: 25.2px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    margin-top: 15px !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate .btn-primary:hover {
+    background-color: #14a04d !important;
+}
+
+/* Microscopic Form Adjustments */
+.serviceTemplate .form-control::placeholder {
+    color: rgb(140, 140, 140) !important;
+    opacity: 1 !important;
+}
+
+.serviceTemplate .input-icon-wrapper img {
+    filter: invert(60%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
+    /* Approximates rgb(140, 140, 140) */
+    opacity: 0.8;
+}
+
+/* ==========================================================================
+   4. Service Cards CSS
+   ========================================================================== */
+.serviceTemplate .gas-line-services {
+    padding: 60px 60px !important;
+}
+
+.serviceTemplate .gas-line-services .section-title {
+    margin-bottom: 24px !important;
+}
+
+.serviceTemplate .gas-line-services .slick-list {
+    padding: 10px 0 !important;
+}
+
+.serviceTemplate .gas-line-services .container-fluid {
+    padding: 0 !important;
+    max-width: 1920px;
+}
+
+.serviceTemplate .services-carousel {
+    margin: 0 -15px;
+}
+
+.serviceTemplate .service-box-wrapper {
+    padding: 0 12px;
+    display: flex;
+    width: 100%;
+}
+
+.serviceTemplate .service-box {
+    height: 100% !important;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 20px 40px 20px;
+    display: block !important;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .service-box h3 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #2d2d2d !important;
+    line-height: 34px !important;
+    margin-bottom: 20px !important;
+}
+
+.serviceTemplate .service-box p {
+    font-size: 16px !important;
+    color: #6e6e6e !important;
+    line-height: 1.7 !important;
+    margin-bottom: 20px !important;
+}
+
+.serviceTemplate .service-box p:last-child {
     margin-bottom: 0 !important;
 }
 
-.blog-detail-page {
-    margin-top: 39px !important;
-    padding-top: 0 !important;
+.serviceTemplate .service-box p b {
+    color: #6e6e6e !important;
+    font-weight: 700 !important;
 }
 
-/* Breadcrumbs - exact ref: background #ebebeb, padding 16px 60px, font-size 16px */
-.breadcrumbs4 {
-    align-self: stretch;
-    background-color: #ebebeb;
-    padding: 16px 60px;
-    font-size: 16px;
-    color: #000;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 100%;
-    box-sizing: border-box;
+.serviceTemplate .gas-line-services .slick-dots {
+    margin-top: 30px !important;
+    margin-bottom: 0 !important;
 }
 
-.breadcrumbs5 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
-    flex-wrap: wrap;
-    max-width: 100%;
+/* ==========================================================================
+   5. Gas Leak Info CSS
+   ========================================================================== */
+.serviceTemplate section.gas-leak-info {
+    background: #ffffff;
+    padding: 80px 0;
 }
 
-.home-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
-}
-
-.home-group a {
-    text-decoration: none;
-    position: relative;
-    line-height: 22px;
-    text-transform: capitalize;
-    color: inherit;
-    font-size: 16px;
-}
-
-.why-do-slab-leaks-occur-mostly-wrapper {
-    color: #319a52;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 100%;
-}
-
-/* Current page crumb - font-weight:600 */
-.why-do-slab {
-    position: relative;
-    line-height: 22px;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-/* =====================
-   Main Layout
-   ===================== */
-
-/* frame-main: ref padding 60px, flex-direction row, gap 24px */
-.frame-main {
-    align-self: stretch;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 60px;
-    gap: 24px;
-    box-sizing: border-box;
-    max-width: 100%;
-}
-
-/* Article column - ref: flex:1, min-width:75%, gap:40px */
-.why-do-slab-leaks-occur-mostly-parent {
-    flex: 1 1;
-    gap: 40px;
-    min-width: 75%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    font-size: 16px;
-}
-
-/* Title wrapper */
-.title-section {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: flex-start;
-    gap: 32px;
-}
-
-/* H1 - ref: font-size 36px, font-weight:600, color:#3ab54b, line-height 1.2 */
-.why-do-slab1 {
-    margin: 0;
-    align-self: stretch;
-    position: relative;
+.serviceTemplate section.gas-leak-info h2.section-title {
     font-size: 36px;
     font-weight: 600;
-    color: #3ab54b;
-    font-family: inherit;
-    line-height: 1.2;
-    width: calc(100% - 50px);
-}
-
-/* Publish date / views line */
-.h-0 {
-    font-size: 16px !important;
-    color: #333 !important;
-    margin-bottom: 24px;
-    line-height: 26px !important;
-    font-weight: 400 !important;
-}
-
-/* Hero image - ref: height 511px, border-radius 16px (var(--br-base)), object-fit cover */
-.img-why-do-slab-leaks-occur-mo {
-    align-self: stretch;
-    height: 511px;
-    position: relative;
-    border-radius: 16px;
-    max-width: 100%;
-    width: 100%;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-
-/* Blog contact bar - ref: display flex, gap clamp, align-items center */
-.blog-contact {
-    display: flex;
-    gap: clamp(12px, 2.1vw, 28px);
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
-/* Phone number - ref: font-size clamp(16px,3.1vw,36px), font-weight:500, color:#3bb44d */
-.blog-num {
-    font-size: clamp(16px, 3.1vw, 36px);
-    font-weight: 500;
-    color: #3bb44d !important;
-    text-decoration: none !important;
-    transition: all 0.3s ease-in-out;
-}
-
-.blog-num:hover {
-    color: #0056b3 !important;
-}
-
-/* Schedule button - ref: padding-block clamp(12px,3.1vw,20px), background:#319a52, border-radius 8px */
-.blog-contact-btn {
-    padding-block: clamp(12px, 3.1vw, 20px);
-    padding-inline: clamp(18px, 3.1vw, 28px);
-    background-color: #319a52;
-    color: #fff !important;
-    border-radius: 8px;
-    font-size: clamp(13px, 2.1vw, 18px);
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
-}
-
-.blog-contact-btn:hover {
-    color: #fff !important;
-    background-color: #278042;
-}
-
-/* =====================
-   Article Body Text
-   ===================== */
-
-/* Section group container */
-.signs-of-a-slab-leak-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 12px;
-    margin-bottom: 24px;
-}
-
-/* Section headings (h2) - ref: font-size 28px, font-weight:600, color:#2d2d2d */
-.signs-of-a {
-    margin: 0;
-    font-size: 28px;
-    font-weight: 600;
-    font-family: inherit;
     color: #2d2d2d;
-    align-self: stretch;
-    position: relative;
+    text-align: center;
 }
 
-/* Body paragraph - ref: font-size 16px, line-height 140%, color:#6e6e6e */
-.text50 {
-    font-size: 16px;
-    line-height: 140%;
-    color: #6e6e6e;
-    align-self: stretch;
-    position: relative;
+.serviceTemplate section.gas-leak-info .text-center.mb-5 {
+    margin-bottom: 40px !important;
 }
 
-.text50 ul {
-    padding-left: 0 !important;
-    margin-block: 8px;
+.serviceTemplate section.gas-leak-info .container-xl {
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
-.text50 ul li {
-    position: relative;
-    color: #333;
-    line-height: 1.8;
-    padding-left: 23px;
-    list-style: none;
-    margin-bottom: 4px;
-}
-
-.text50 ul li::after {
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #3ab54b;
-    position: absolute;
-    border-radius: 50%;
-    left: 0;
-    top: 9px;
-}
-
-.text50 a {
-    color: #3bb44d;
-    text-decoration: none;
-}
-
-.text50 a:hover {
-    text-decoration: underline;
-}
-
-/* H3 headings in content */
-.text50 h3,
-.signs-of-a-slab-leak-parent h3 {
-    font-size: clamp(18px, 3.1vw, 20px);
-    margin-top: clamp(8px, 3.1vw, 16px);
-    margin-bottom: 8px;
-    line-height: normal;
-    font-weight: 600;
-    color: #333;
-}
-
-/* =====================
-   Right Sidebar
-   ===================== */
-
-/* Sidebar container - ref: width 412px, flex-direction column, row-gap 16px */
-.frame-parent32 {
+.serviceTemplate section.gas-leak-info img {
     width: 100%;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
+    height: auto;
+    max-height: 500px;
+    object-fit: fill;
+    border-radius: 12px;
 }
 
-/* Category box - ref: box-shadow 0 1px 8px, border-radius 16px, padding 24px, gap 8px */
-.text-group {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
-    border-radius: 16px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
-    align-self: stretch;
-}
-
-/* Sidebar widget headings - ref: font-size 24px, line-height 28px, font-weight 500, color #000 */
-.text83,
-.text92 {
-    margin: 0;
-    position: relative;
-    font-size: 24px;
+.serviceTemplate section.gas-leak-info .content-text p {
+    font-size: 16px;
+    color: #2d2d2d;
     line-height: 28px;
-    font-weight: 500;
-    font-family: inherit;
-    display: inline-block;
-    color: #000;
-    padding-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+.serviceTemplate section.gas-leak-info .content-text p b {
+    color: #6e6e6e;
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   6. Promo Section CSS
+   ========================================================================== */
+.serviceTemplate .promo-section {
+    background: #eefaf2;
+    padding: 60px 0;
+}
+
+.serviceTemplate .promo-carousel .promo-card-item {
+    padding: 10px 10px;
+    display: flex !important;
     width: 100%;
-    border-bottom: 1px solid #a5a5a5;
-    margin-bottom: 8px;
 }
 
-/* Category tags grid - ref: gap 12px 14px, flex-wrap, color var(--primary) */
-.categorys-col .frame-parent33 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 12px 14px;
+.serviceTemplate .testimonial-card-item {
+    display: flex !important;
     width: 100%;
-    max-height: 400px;
-    overflow-y: auto;
-    padding-right: 2px;
 }
 
-/* Tag pills - exact ref: transparent bg, border 1px solid #3bb44d, padding 6px 11px, border-radius 8px, font-size 18px */
-.text-wrapper {
-    cursor: pointer;
-    border: 1px solid #3bb44d;
-    padding: 6px 11px;
-    background-color: transparent;
-    border-radius: 8px;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    text-decoration: none;
-    color: #3bb44d;
-    transition: all 0.3s;
-}
-
-.text-wrapper:hover {
-    background-color: rgba(33, 156, 51, 0.09);
-    border-color: #219c33;
-}
-
-.text84 {
-    position: relative;
-    font-size: 14px;
-    line-height: 22px;
-    color: #3bb44d;
-    text-align: left;
-    display: inline-block;
-    font-size: 18px;
-}
-
-/* Recent posts box - ref: box-shadow, border-radius 16px, padding 16px, gap 15.9px */
-.text-parent1 {
-    align-self: stretch;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
-    border-radius: 16px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 16px;
-    position: relative;
-    gap: 15.9px;
-    font-size: 16px;
-    color: #2c2e47;
-}
-
-/* Scrollable recent posts - ref: max-height 404px, display grid, gap 16px */
-.recent-posts {
-    max-height: 404px;
-    overflow-y: auto;
-    display: grid;
-    gap: 16px;
-    padding-right: 5px;
-    padding-left: 5px;
-    width: 100%;
+.serviceTemplate .promo-section .icon-card {
+    display: block !important;
+    background: #ffffff;
+    border-radius: 30px;
     box-shadow: none;
+    padding: 30px 23px;
+    height: 100%;
+    transition: all 0.3s ease;
 }
 
-.recent-posts::-webkit-scrollbar {
-    background: #3bb44d;
-    width: 4px;
-    border-radius: 16px;
+.serviceTemplate .promo-section .icon-card:hover {
+    box-shadow: 0 15px 35px rgba(49, 160, 91, 0.1);
 }
 
-.recent-posts::-webkit-scrollbar-track {
-    background: #f1f1f1;
+.serviceTemplate .promo-section .icon-card img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 0px !important;
+    display: block !important;
 }
 
-.recent-posts::-webkit-scrollbar-thumb {
-    background: #3bb44d;
-    width: 4px;
+.serviceTemplate .promo-section .icon-card h4 {
+    display: block !important;
+    width: 100% !important;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    color: #2d2d2d;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
-/* Recent post row */
-.recent-post-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 12px;
-    align-self: stretch;
+.serviceTemplate .promo-section .icon-card .card-sub-title {
+    display: block !important;
+    width: 100% !important;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 16px;
 }
 
-/* Recent post thumb - ref: height 54px, width 96px, border-radius 8px */
-.recent-post-item img {
-    height: 54px;
-    width: 96px;
-    min-width: 96px;
-    position: relative;
-    border-radius: 8px;
-    object-fit: cover;
-    flex-shrink: 0;
+.serviceTemplate .promo-section .icon-card .card-description {
+    display: block !important;
+    width: 100% !important;
+    font-size: 16px;
+    color: #2d2d2d;
+    line-height: 26px;
+    margin-bottom: 0;
 }
 
-/* Recent post link - ref: font-size 14px, line-height 18px, font-weight 500, color #2c2e47 */
-.recent-post-item a {
-    flex: 1 1;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 500;
-    color: #2c2e47;
+.serviceTemplate .promo-carousel .slick-dots {
+    margin-top: 30px;
+}
+
+/* ==========================================================================
+   7. CTA Banner CSS
+   ========================================================================== */
+.promo-strip {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2), rgba(49, 154, 82, 0.2));
+    padding: 60px 0;
+}
+
+.promo-strip h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.promo-strip h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 0px;
+}
+
+.promo-strip h3 a {
+    color: #2d2d2d;
     text-decoration: none;
-    display: block;
-    transition: color 0.3s;
+    vertical-align: middle;
 }
 
-.recent-post-item a:hover {
-    color: #3bb44d !important;
+.cta-phone-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
-/* =====================
-   Responsive Breakpoints
-   ===================== */
+.cta-phone-icon img {
+    width: 32px;
+    height: 32px;
+}
 
-@media (min-width: 1200px) {
-    .frame-main {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        gap: 24px;
+/* ==========================================================================
+   8. Testimonials CSS
+   ========================================================================== */
+.serviceTemplate .testimonials-section {
+    padding: 80px 0;
+}
+
+.serviceTemplate .testimonial-card {
+    border: none !important;
+    background: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px 0px !important;
+    border-radius: 20px !important;
+    padding: 50px 30px !important;
+    margin: 5px !important;
+    display: block !important;
+}
+
+.serviceTemplate .testimonial-card .stars {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.serviceTemplate .testimonial-card .stars img {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+}
+
+.serviceTemplate .testimonial-card p {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 26px;
+    color: #6e6e6e !important;
+    margin: 24px 0 16px !important;
+    padding: 4px 0 !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .testimonial-card h5 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal !important;
+    margin: 24px 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    color: #2d2d2d !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+/* ==========================================================================
+   9. Why EZ Section CSS
+   ========================================================================== */
+.why-ez-section {
+    padding: 80px 0;
+}
+
+.why-ez-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.why-ez-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2D2D2D;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   10. FAQ Section CSS
+   ========================================================================== */
+.serviceTemplate .faq-section {
+    padding: 0 0 60px !important;
+}
+
+.serviceTemplate .faq-section h2.section-title {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #2D2D2D !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+}
+
+.serviceTemplate .accordion-item {
+    border: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+}
+
+.serviceTemplate .accordion-header button {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #2D2D2D !important;
+    line-height: 1.2 !important;
+    padding: 20px 20px 20px 80px !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.serviceTemplate .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.serviceTemplate .accordion-button::after {
+    display: none !important;
+}
+
+.serviceTemplate .accordion-button::before {
+    content: "" !important;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url("assets/plus.webp") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.serviceTemplate .accordion-button:not(.collapsed)::before {
+    background-image: url("assets/less.webp") !important;
+}
+
+.serviceTemplate .accordion-body {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #6E6E6E !important;
+    padding: 0 20px 16px 82px !important;
+    margin: 0 !important;
+    line-height: normal !important;
+}
+
+/* ==========================================================================
+   11. Responsive Adjustments
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    .serviceTemplate .immediate-slab-leak {
+        font-size: 2rem;
+        text-align: center;
     }
 
-    .frame-parent32 {
-        width: 412px;
-        min-width: 412px;
-        margin-top: 0;
-        position: sticky;
-        top: 100px;
-        align-self: flex-start;
+    .serviceTemplate .slab-leak-detection {
+        text-align: center;
+    }
+
+    .serviceTemplate .banner {
+        padding: 40px 0;
+    }
+
+    .serviceTemplate .banner-contact-form {
+        margin-top: 3rem;
     }
 }
 
-@media (max-width: 1050px) {
-    .why-do-slab1 {
-        font-size: 22px;
-    }
-}
-
-@media (max-width: 750px) {
-    .breadcrumbs4 {
-        padding-left: 30px;
-        padding-right: 30px;
+@media (max-width: 767.98px) {
+    .serviceTemplate .immediate-slab-leak {
+        font-size: 1.75rem;
     }
 
-    .frame-main {
-        padding: 25px 30px;
+    .promo-strip {
+        padding: 30px 16px;
     }
 
-    .img-why-do-slab-leaks-occur-mo {
-        height: auto;
+    .promo-strip h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
     }
 
-    .why-do-slab-leaks-occur-mostly-parent {
-        min-width: 100%;
+    .promo-strip h3 {
+        font-size: 32px;
     }
 
-    .frame-parent32 {
-        min-width: 100%;
-    }
-}
-
-@media (max-width: 450px) {
-    .why-do-slab1 {
-        font-size: 22px;
-    }
-
-    .frame-main {
-        padding: 20px 16px;
+    .serviceTemplate .testimonial-card h5 {
+        font-size: 20px;
     }
 }
 
@@ -541,7 +724,9 @@
 }
 
 .text50 h2.blog_sandiego_title,
-.text50 h1, .text50 h2, .text50 h3 {
+.text50 h1,
+.text50 h2,
+.text50 h3 {
     font-family: 'Outfit', sans-serif !important;
     color: #2c2e47;
     margin-top: 24px;
