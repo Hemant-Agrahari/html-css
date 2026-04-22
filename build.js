@@ -11,10 +11,14 @@ function injectImageOptimization($, yamlData) {
   const IMAGES_BASE_PATH = "../assets/images/";
   const GEN_BASE_PATH = "../assets/images/generated/";
 
-  // 1. Handle <img> tags (srcset and sizes)
+  // 1. Handle <img> tags (srcset, sizes, loading, decoding)
   $("img").each((i, el) => {
     const $img = $(el);
     const src = $img.attr("src") || "";
+
+    // Set defaults for all images
+    $img.attr("loading", "lazy");
+    $img.attr("decoding", "async");
 
     if (src.includes("assets/images/") && !src.includes("generated/")) {
       const fileName = path.basename(src);
@@ -39,9 +43,10 @@ function injectImageOptimization($, yamlData) {
   // 2. Handle LCP Image (fetchpriority="high", loading="eager")
   if (yamlData.lcp_img) {
     const lcpSrcSnippet = yamlData.lcp_img;
-    $(`img[src*="${lcpSrcSnippet}"]`).attr("fetchpriority", "high");
-    $(`img[src*="${lcpSrcSnippet}"]`).attr("loading", "eager");
-    $(`img[src*="${lcpSrcSnippet}"]`).removeAttr("decoding");
+    const $lcpImg = $(`img[src*="${lcpSrcSnippet}"]`);
+    $lcpImg.attr("fetchpriority", "high");
+    $lcpImg.attr("loading", "eager");
+    $lcpImg.attr("decoding", "sync");
   }
 
   // 3. Handle LCP Background Preloads
@@ -183,11 +188,12 @@ function buildPage(pageName) {
   const canonicalLink = `<link rel="canonical" href="${canonicalUrl}" />`;
   html = html.split("{{canonical}}").join(canonicalLink);
 
-  // Update paths for dist/ (1 level deep)
-  html = html.replace(/\.\.\/\.\.\/assets\//g, "../assets/");
-  html = html.replace(/\.\.\/\.\.\/shared\//g, "../shared/");
-  html = html.replace(/\.\.\/\.\.\/components\//g, "../components/");
-  html = html.replace(/\.\.\/\.\.\/pages\//g, "../pages/");
+  // Update paths for dist/ (root level)
+  html = html.replace(/\.\.\/\.\.\/assets\//g, "assets/");
+  html = html.replace(/\.\.\/\.\.\/shared\//g, "shared/");
+  html = html.replace(/\.\.\/\.\.\/components\//g, "components/");
+  html = html.replace(/\.\.\/\.\.\/pages\//g, "pages/");
+  html = html.replace(/\.\.\/\.\.\/([a-zA-Z0-9_-]+\.html)/g, "$1");
 
   // Fix local CSS reference targeting home.css
   html = html.replace(
@@ -221,10 +227,11 @@ function buildPage(pageName) {
   let finalHtml = $.html();
 
   // Final path corrections on the markup
-  finalHtml = finalHtml.replace(/\.\.\/\.\.\/assets\//g, "../assets/");
-  finalHtml = finalHtml.replace(/\.\.\/\.\.\/shared\//g, "../shared/");
-  finalHtml = finalHtml.replace(/\.\.\/\.\.\/components\//g, "../components/");
-  finalHtml = finalHtml.replace(/\.\.\/\.\.\/pages\//g, "../pages/");
+  finalHtml = finalHtml.replace(/\.\.\/\.\.\/assets\//g, "assets/");
+  finalHtml = finalHtml.replace(/\.\.\/\.\.\/shared\//g, "shared/");
+  finalHtml = finalHtml.replace(/\.\.\/\.\.\/components\//g, "components/");
+  finalHtml = finalHtml.replace(/\.\.\/\.\.\/pages\//g, "pages/");
+  finalHtml = finalHtml.replace(/\.\.\/\.\.\/([a-zA-Z0-9_-]+\.html)/g, "$1");
 
   // Fix local CSS reference targeting home.css
   finalHtml = finalHtml.replace(
@@ -256,15 +263,14 @@ if (pageToBuild === "all") {
 // Ensure Vercel has all assets in dist
 const copyRecursiveSync = function(src, dest) {
   if (!fs.existsSync(src)) return;
-  const exists = fs.existsSync(dest);
-  const stats = exists && fs.statSync(dest);
-  const isDirectory = exists && stats.isDirectory();
-  if (exists && isDirectory) {
+  const stats = fs.statSync(src);
+  if (stats.isDirectory()) {
+    if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
     fs.readdirSync(src).forEach(function(childItemName) {
       copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
     });
   } else {
-    if (!fs.existsSync(path.dirname(dest))) fs.mkdirSync(path.dirname(dest), {recursive: true});
+    if (!fs.existsSync(path.dirname(dest))) fs.mkdirSync(path.dirname(dest), { recursive: true });
     fs.copyFileSync(src, dest);
   }
 };

@@ -10,13 +10,98 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/how-to-repair-heating-system-quickly/how-to-repair-heating-system-quickly.css">
     <script type="application/ld+json">{
@@ -40,7 +125,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -55,7 +140,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -452,7 +537,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -479,12 +564,12 @@
           <div class="container">
             <div class="breadcrumbs5">
               <div class="home-group">
-                <a class="home7" href="../../index.html">Home</a>
-                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="../pages/how-to-repair-heating-system-quickly/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <a class="home7" href="index.html">Home</a>
+                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
                 <a style="font-weight: normal" class="latest-news" href="blog.html">Blog</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-repair-heating-system-quickly/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
                 <a style="font-weight: normal" class="latest-news" href="#">Heating Service</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-repair-heating-system-quickly/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
               </div>
               <div class="why-do-slab-leaks-occur-mostly-wrapper">
                 <div class="why-do-slab">Heating Repair: How To Do It Quickly And Easily</div>
@@ -508,10 +593,10 @@
                   Views : <span>1200</span>
                 </div>
               </div>
-              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="Heating Repair: How To Do It Quickly And Easily" src="../pages/how-to-repair-heating-system-quickly/assets/blog/how-to-repair-heating-system-quickly.webp" width="708" height="333" decoding="async">
+              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="Heating Repair: How To Do It Quickly And Easily" src="assets/images/blog/how-to-repair-heating-system-quickly.webp" width="708" height="333" decoding="async">
               <div class="blog-contact">
                 <a href="tel:+17603927616" class="blog-num">(760) 392-7616</a>
-                <a class="blog-contact-btn" href="../../contact-us.html">Schedule An Appointment</a>
+                <a class="blog-contact-btn" href="contact-us.html">Schedule An Appointment</a>
               </div><div class="post-injected-content mt-4" style="color: #4a4a4a;">
 <div class="signs-of-a-slab-leak-parent"><div class="text50"><p>When it comes to <strong><a href="https://www.ezheatandair.com/orange-county-heating-repair/">heating repair in Orange County</a></strong>, homeowners can trust that they can do it quickly and easily. Whether you have a broken furnace, a malfunctioning thermostat, or any other problem with your heating system, there are steps you can take to fix the issue in no time.</p><p>You also have access to some of the best heating repair services in the area.</p><p>This post will discuss how to perform heating repair quickly and easily. From determining the cause of the problem to finding the right tools and resources.</p><h2 class="blog_sandiego_title">If No Sufficient Heating</h2><p>If you're living in Orange County, CA, and find that your heater is not producing enough heat, it's time to consider some heating repairs. You can perform many of the basic repairs yourself.</p><p>To determine whether a fuse has blown, check the fuse box.. If you have an electric furnace, check the power supply cord and outlet. Make sure they are properly plugged in and grounded. Also, check that they are not damaged in any way.</p><p>If nothing is detected, try to determine what's causing the problem by looking at your house and its heating system. If you don’t see any obvious problems, then it's time to do some research.</p><p>Look up your model of the heater on the manufacturer’s website or search for similar models online so that you know what type of repair tools and resources are needed for your specific unit.</p><h2 class="blog_sandiego_title">Heater Not Functioning at All</h2><p>If your heater isn’t working at all, then it could be due to a variety of different issues. The first thing you should do is check the power supply and make sure there are no blown fuses or tripped breakers. If that doesn’t fix the problem, try resetting your thermostat.</p><p>To check your circuit breaker, simply locate your fuse box and reset the breaker by flipping the switch to the off position, waiting a few seconds, and then flipping it back to the on position.</p><p>If the problem persists, contact a local heating repair service to diagnose and fix the issue.</p><h2 class="blog_sandiego_title">For Gas Furnaces, Check the Pilot Light</h2><p>If the pilot light goes out, then your furnace won't be able to ignite and heat your home. Fortunately, it's easy to relight the pilot light yourself in just a few minutes with a few simple steps.</p><p>The first step is to find the pilot light. On most furnaces, this is located near the bottom of the unit. You may need to remove a protective covering to locate it. Once you've found the pilot light, use a match or lighter to ignite it.</p><p>Next, turn the knob or switch that controls the pilot light. This is typically marked On/Off or Pilot. Turn it to On or Pilot.</p><p>Depending on your furnace, you may also need to hold down another button or knob at the same time as turning this switch on.</p><p>You should then be able to see the pilot light burning steadily. If it is not steady, try adjusting the size of the flame by turning the knob or screw located next to it. If it still won't stay lit.</p><p>Once you've relit the pilot light and it is burning steadily, you should be able to turn the knob back to On or Main, which will allow your furnace to turn on and heat your home.</p><p>If your furnace still isn't working properly after relighting the pilot light, you'll need to call an HVAC technician for further heating repair in Orange County.</p><h2 class="blog_sandiego_title">Clean or Replace the Filter of Your Heater</h2><p>One of the most crucial things you can do when it comes to heating repair in Orange County, CA is to routinely clean or replace your heater filter.</p><p>This is crucial for the efficient operation and durability of your heating system.</p><p>If you don't frequently replace or clean the filter, it can fill up with dust, pet hair, and other debris, which will dramatically restrict airflow and put too much strain on your heater.</p><p>To ensure that your filter is in good working condition, take a look at it every month and replace or clean it as needed.</p><p>To replace your filter, purchase one that’s compatible with your model and follow the instructions on the packaging.</p><p>To clean the filter, use a vacuum cleaner on the medium setting, being careful not to damage it in the process. If you have pets, you may need to replace the filter more frequently to keep it from becoming clogged too quickly.</p><p>By taking the time to clean or replace the filter of your heater regularly, you can extend its life and maximize its efficiency.</p><p>This simple maintenance task can help you save money in the long run, as it can prevent costly repairs or replacements down the road.</p><h2 class="blog_sandiego_title">Regularly Inspect the Furnace</h2><p>If you're looking to save time and money on heating repairs in Orange County, checking your furnace regularly is a great place to start. This will help identify any potential problems, as well as how best to go about solving them.</p><p>Start by checking the furnace filter and the blower assembly. Make sure they are clean and free of debris.</p><p>Additionally, look for signs of wear and tear or corrosion. If any of these issues are present, it may be necessary to call a heating repair technician in Orange County for professional assistance.</p><h2 class="blog_sandiego_title">Check for Gas Leaks</h2><p>It is important to check for gas leaks before beginning any repair work. If you don't, you could put yourself and your family at risk of a hazardous situation. To begin, check the gas lines that lead into the furnace.</p><p>They should be free of cracks or holes. If you find any, consider having them repaired by a professional.</p><p>Next, check the pilot light on your furnace to make sure it's working properly. If it's not lit up at all, then you'll need a new one installed.</p><h2 class="blog_sandiego_title">Call a Professional</h2><p>If you're dealing with heating repair in Orange County, it's important to seek help from a professional. Professionals at <strong><a href="https://www.ezheatandair.com/">EZ Heat And Air</a></strong> have the expertise and knowledge to address any problem with your system quickly and efficiently.</p><p>They'll be able to diagnose the issue and provide a solution that not only works for your budget but also ensures your comfort and safety. A professional heating repair technician can also provide tips on how to maintain your system so you don't end up dealing with similar problems in the future.</p><p>Reach out to a reliable heating repair service in Orange County today to get the help you need!</p><h2 class="blog_sandiego_title">Conclusion</h2><p>You have a lot of options for heating repair in Orange County. There is a fix for everyone, whether you need short fixes or something more substantial and long-lasting.</p><p>From small repairs that can be done quickly and easily, to larger replacements or overhauls that can take some time and effort, there are professionals out there who are ready and willing to help.</p><p>No matter the size of the job, it’s important to get it done right the first time. With the right tools, knowledge, and the right professionals, your heating repair needs can be taken care of with ease.</p></div></div>
 </div>
@@ -551,17 +636,17 @@
                 <div class="recent-posts">
                   <!-- Hardcoded recent posts -->
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-repair-heating-system-quickly/assets/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
+                    <img src="assets/images/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
                     <a href="5-reasons-your-water-heater-isnt-working-and-how-san-diego-experts-can-help.html">5 Reasons Your Water Heater Isn’t Working and How San
                       Diego Experts Can Help</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-repair-heating-system-quickly/assets/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
+                    <img src="assets/images/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
                     <a href="how-san-diego-climate-affects-water-heater-performance.html">How San Diego’s Climate Affects Water Heater
                       Performance</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-repair-heating-system-quickly/assets/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
+                    <img src="assets/images/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
                     <a href="hvac-repair-in-san-diego-essential-tips-to-keep-your-system-running-smoothly.html">HVAC Repair in San Diego, CA: Essential Tips to Keep Your
                       System Running Smoothly</a>
                   </div>
@@ -577,22 +662,22 @@
             <div class="share-group">
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-repair-heating-system-quickly/assets/facebook-share-icon.svg">
+                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/facebook-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-repair-heating-system-quickly/assets/twitter-share-icon.svg">
+                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/twitter-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-repair-heating-system-quickly/assets/linkedin-share-icon.svg">
+                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/linkedin-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-repair-heating-system-quickly/assets/email-share-icon.svg">
+                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/email-share-icon.svg">
                 </button>
               </span>
             </div>
@@ -602,17 +687,17 @@
         <div class="container" style="margin-top: 40px; margin-bottom: 40px">
           <div class="blog-detail-page-inner px-0">
             <div class="frame-parent37">
-              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120">
+              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120" decoding="async">
               <div class="frame-parent38">
                 <div class="frame-parent39">
                   <div class="frame-wrapper">
                     <div class="text-parent3" style="gap: 16px">
-                      <a href="../../michael-cabral.html" style="text-decoration: none; color: inherit">
+                      <a href="michael-cabral.html" style="text-decoration: none; color: inherit">
                         <div class="text94" style="color: #2c2e47">
                           Michael Cabral
                         </div>
                       </a>
-                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44">
+                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="text95">Marketing Manager</div>
@@ -653,15 +738,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -688,7 +773,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -702,11 +787,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -714,9 +799,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -748,10 +833,10 @@
 </footer>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script defer="" src="../shared/js/modules/header.js"></script>
-<script defer="" src="../shared/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer=""></script>
+<script defer="" src="shared/js/modules/header.js"></script>
+<script defer="" src="shared/js/main.js"></script>
 
 
   

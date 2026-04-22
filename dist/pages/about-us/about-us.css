@@ -1,0 +1,473 @@
+/* CSS for about-us */
+
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* ==========================================================================
+   2. Breadcrumbs CSS
+   ========================================================================== */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+}
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb span,
+.serviceTemplate .home-breadcrumb .about-us1 {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+}
+
+/* Slick Utility Styles */
+.serviceTemplate .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.serviceTemplate .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.serviceTemplate .slick-slide>div {
+    display: flex;
+    width: 100%;
+}
+
+/* Global Slick Dots customization */
+.serviceTemplate .slick-dots {
+    margin-top: 30px !important;
+    position: static;
+}
+
+.serviceTemplate .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.serviceTemplate .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    background: #D9D9D9 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .slick-dots li button:before {
+    display: none;
+}
+
+.serviceTemplate .slick-dots li.slick-active button {
+    width: 40px;
+    background: #319A52 !important;
+    border-radius: 40px;
+}
+
+
+/* ==========================================================================
+   6. Promo Section CSS
+   ========================================================================== */
+.serviceTemplate .promo-section {
+    background: #eefaf2;
+    padding: 60px 0;
+}
+
+.serviceTemplate .promo-carousel .promo-card-item {
+    padding: 10px 10px;
+    display: flex !important;
+    width: 100%;
+}
+
+.serviceTemplate .testimonial-card-item {
+    display: flex !important;
+    width: 100%;
+}
+
+.serviceTemplate .promo-section .icon-card {
+    display: block !important;
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: none;
+    padding: 30px 23px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .promo-section .icon-card:hover {
+    box-shadow: 0 15px 35px rgba(49, 160, 91, 0.1);
+}
+
+.serviceTemplate .promo-section .icon-card img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 0px !important;
+    display: block !important;
+}
+
+.serviceTemplate .promo-section .icon-card h4 {
+    display: block !important;
+    width: 100% !important;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    color: #2d2d2d;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.serviceTemplate .promo-section .icon-card .card-sub-title {
+    display: block !important;
+    width: 100% !important;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 16px;
+}
+
+.serviceTemplate .promo-section .icon-card .card-description {
+    display: block !important;
+    width: 100% !important;
+    font-size: 16px;
+    color: #2d2d2d;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.serviceTemplate .promo-carousel .slick-dots {
+    margin-top: 30px;
+}
+
+
+/* ==========================================================================
+   7. CTA Banner CSS
+   ========================================================================== */
+.promo-strip {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2), rgba(49, 154, 82, 0.2));
+    padding: 60px 0;
+}
+
+.promo-strip h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.promo-strip h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 0px;
+}
+
+.promo-strip h3 a {
+    color: #2d2d2d;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.cta-phone-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.cta-phone-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* ==========================================================================
+   8. Testimonials CSS
+   ========================================================================== */
+.serviceTemplate .testimonials-section {
+    padding: 80px 0;
+}
+
+.serviceTemplate .testimonial-card {
+    border: none !important;
+    background: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px 0px !important;
+    border-radius: 20px !important;
+    padding: 50px 30px !important;
+    margin: 5px !important;
+    display: block !important;
+}
+
+.serviceTemplate .testimonial-card .stars {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.serviceTemplate .testimonial-card .stars img {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+}
+
+.serviceTemplate .testimonial-card p {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 26px;
+    color: #6e6e6e !important;
+    margin: 24px 0 16px !important;
+    padding: 4px 0 !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .testimonial-card h5 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal !important;
+    margin: 24px 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    color: #2d2d2d !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+
+
+/* ==========================================================================
+   Insurance Section CSS — exact match from global CSS
+   ========================================================================== */
+.my-60 {
+    margin-top: clamp(35px, 5vw, 60px);
+}
+
+.mx-60 {
+    margin-bottom: clamp(35px, 5vw, 60px);
+}
+
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 17px 24px;
+}
+
+.insurance-logo,
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.insurance-logo {
+    box-shadow: 0 0 8.14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    max-width: 18%;
+    width: 100%;
+    min-height: 130px;
+}
+
+@media only screen and (max-width: 575px) {
+    .container.insurance-container {
+        padding-right: 0;
+    }
+
+    .insurance-logo img {
+        min-height: 120px;
+        object-fit: scale-down;
+    }
+}
+/* ==========================================================================
+   Location Section CSS — exact match from global CSS
+   ========================================================================== */
+.py-60 {
+    padding-block: clamp(30px, 5vw, 60px);
+}
+
+.title {
+    font-size: clamp(27px, 2.2vw, 36px);
+    font-weight: 600;
+    color: #2d2d2d;
+    margin: 0;
+}
+
+.dec {
+    font-size: clamp(14px, 2.1vw, 18px);
+    font-weight: 400;
+    color: #6e6e6e;
+    max-width: 100%;
+}
+
+.locations .locations-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1a33;
+    margin-bottom: 12px;
+}
+
+.locations .dec {
+    font-size: 14px;
+}
+
+/* ==========================================================================
+   About Hero Section
+   ========================================================================== */
+.about-hero-section {
+    position: relative;
+    padding: 80px 0;
+    background-image: url('assets/banner-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #2D2D2D;
+    z-index: 1;
+}
+
+.about-hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4); /* Light overlay to see text clearly */
+    z-index: -1;
+}
+
+/* Green overlay effect similar to screenshot */
+.about-hero-section {
+    background: linear-gradient(rgba(49, 160, 91, 0.4), rgba(49, 160, 91, 0.4)), url('assets/banner-bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #2d2d2d;
+}
+
+.about-hero-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+    color: #2d2d2d;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==========================================================================
+   Mission Section
+   ========================================================================== */
+.about-mission-section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mission-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6e6e6e;
+}
+
+.mission-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #319A52;
+    border-radius: 50%;
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

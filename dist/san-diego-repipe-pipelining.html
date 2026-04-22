@@ -10,18 +10,103 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/san-diego-repipe-pipelining/san-diego-repipe-pipelining.css">
     <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" href="../shared/css/carousel.css">
-    <script src="../pages/san-diego-repipe-pipelining/assets/carousel-vanilla.js"></script>
+    <link rel="stylesheet" href="shared/css/carousel.css">
+    <script src="assets/images/carousel-vanilla.js"></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -46,7 +131,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -61,7 +146,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -458,7 +543,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -486,7 +571,7 @@
             <div class="breadcrumb-col">
               <div class="home-breadcrumb d-flex align-items-center gap-2">
                 <a class="homes" href="index.html">Home</a>
-                <img alt="chevronrightdouble" src="../pages/san-diego-repipe-pipelining/assets/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <img alt="chevronrightdouble" src="assets/images/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high" loading="lazy">
                 <span class="about-us1">Repipe Pipelining Services in San Diego</span>
               </div>
             </div>
@@ -505,7 +590,7 @@
               );
               z-index: 0;
             "></div>
-          <img alt="Repipe Pipelining Services in San Diego" class="d-none d-lg-block banner-bg" src="../pages/san-diego-repipe-pipelining/assets/repipe-hero.webp" style="
+          <img alt="Repipe Pipelining Services in San Diego" class="d-none d-lg-block banner-bg" src="assets/images/repipe-hero.webp" style="
               position: absolute;
               height: 100%;
               width: 100%;
@@ -513,7 +598,7 @@
               object-fit: cover;
               object-position: center top;
               z-index: -1;
-            " decoding="async" width="1366" height="825">
+            " decoding="async" width="1366" height="825" loading="lazy">
           <div class="container-xl" style="position: relative; z-index: 1">
             <div class="row align-items-center">
               <div class="col-lg-7 col-md-12">
@@ -633,7 +718,7 @@
             </div>
             <div class="row align-items-center">
               <div class="col-lg-6 mb-4 mb-lg-0">
-                <img src="../pages/san-diego-repipe-pipelining/assets/benefits-repipe.webp" alt="Benefits of Repiping" class="img-fluid rounded-3" decoding="async" width="225" height="224">
+                <img src="assets/images/benefits-repipe.webp" alt="Benefits of Repiping" class="img-fluid rounded-3" decoding="async" width="225" height="224" loading="lazy">
               </div>
               <div class="col-lg-6">
                 <div class="content-text">
@@ -662,7 +747,7 @@
             <div class="promo-carousel">
               <div class="promo-card-item">
                 <div class="icon-card">
-                  <img src="../pages/san-diego-repipe-pipelining/assets/free-estimate.webp" alt="FREE Estimate" class="mb-3" decoding="async" width="51" height="50" loading="lazy">
+                  <img src="assets/images/free-estimate.webp" alt="FREE Estimate" class="mb-3" decoding="async" width="51" height="50" loading="lazy">
                   <h4>FREE</h4>
                   <p class="card-sub-title">Estimate</p>
                   <p class="card-description">
@@ -673,7 +758,7 @@
               </div>
               <div class="promo-card-item">
                 <div class="icon-card">
-                  <img src="../pages/san-diego-repipe-pipelining/assets/free-service-call.webp" alt="FREE Service Call" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
+                  <img src="assets/images/free-service-call.webp" alt="FREE Service Call" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
                   <h4>FREE</h4>
                   <p class="card-sub-title">Service Call</p>
                   <p class="card-description">
@@ -684,7 +769,7 @@
               </div>
               <div class="promo-card-item">
                 <div class="icon-card">
-                  <img src="../pages/san-diego-repipe-pipelining/assets/discount-available.webp" alt="15% Discount" class="mb-3" decoding="async" width="51" height="53" loading="lazy">
+                  <img src="assets/images/discount-available.webp" alt="15% Discount" class="mb-3" decoding="async" width="51" height="53" loading="lazy">
                   <h4>15%</h4>
                   <p class="card-sub-title">Discount Available</p>
                   <p class="card-description">
@@ -695,7 +780,7 @@
               </div>
               <div class="promo-card-item">
                 <div class="icon-card">
-                  <img src="../pages/san-diego-repipe-pipelining/assets/finance-service.webp" alt="FINANCING Available" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
+                  <img src="assets/images/finance-service.webp" alt="FINANCING Available" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
                   <h4>FINANCING</h4>
                   <p class="card-sub-title">Available</p>
                   <p class="card-description">
@@ -706,7 +791,7 @@
               </div>
               <div class="promo-card-item">
                 <div class="icon-card">
-                  <img src="../pages/san-diego-repipe-pipelining/assets/247-service.webp" alt="24/7" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
+                  <img src="assets/images/247-service.webp" alt="24/7" class="mb-3" decoding="async" width="50" height="50" loading="lazy">
                   <h4>24/7</h4>
                   <p class="card-sub-title">Service</p>
                   <p class="card-description">
@@ -727,7 +812,7 @@
             <h3>
               CALL EXPERTS NOW
               <span class="cta-phone-icon">
-                <img src="../pages/san-diego-repipe-pipelining/assets/green-icon-call.webp" alt="Phone Icon" decoding="async" width="50" height="50" loading="lazy">
+                <img src="assets/images/green-icon-call.webp" alt="Phone Icon" decoding="async" width="50" height="50" loading="lazy">
               </span>
               <a href="tel:+17603927616" class="text-decoration-none">(760) 392 7616</a>
             </h3>
@@ -742,11 +827,11 @@
                 <div class="testimonial-card-item px-3 mb-4">
                   <div class="testimonial-card p-4 bg-white rounded-3 shadow-sm h-100">
                     <div class="stars mb-3 text-center">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
                     </div>
                     <p class="text-center">
                       "I’ve been using their air conditioner maintenance service
@@ -759,11 +844,11 @@
                 <div class="testimonial-card-item px-3 mb-4">
                   <div class="testimonial-card p-4 bg-white rounded-3 shadow-sm h-100">
                     <div class="stars mb-3 text-center">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
-                      <img src="../pages/san-diego-repipe-pipelining/assets/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
+                      <img src="assets/images/icon-star.webp" alt="star" decoding="async" width="612" height="612" loading="lazy">
                     </div>
                     <p class="text-center">
                       "Excellent service! I called for air conditioner
@@ -807,7 +892,7 @@
                 </div>
               </div>
               <div class="col-lg-6 mt-4 mt-lg-0 text-center">
-                <img src="../pages/san-diego-repipe-pipelining/assets/why-repipe.webp" alt="Why Repipe" class="img-fluid rounded-3" style="max-width: 100%; height: auto" decoding="async" width="208" height="242" loading="lazy">
+                <img src="assets/images/why-repipe.webp" alt="Why Repipe" class="img-fluid rounded-3" style="max-width: 100%; height: auto" decoding="async" width="208" height="242" loading="lazy">
               </div>
             </div>
           </div>
@@ -861,15 +946,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -896,7 +981,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -910,11 +995,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -922,9 +1007,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -956,7 +1041,7 @@
 </footer>
 
     </div>
-    <script src="../pages/san-diego-repipe-pipelining/assets/san-diego-repipe-pipelining.js"></script>
+    <script src="assets/images/san-diego-repipe-pipelining.js"></script>
   
 
 </body></html>

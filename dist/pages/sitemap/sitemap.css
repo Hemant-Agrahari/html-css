@@ -1,0 +1,324 @@
+/* sitemap.css */
+
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Breadcrumbs CSS */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 60px;
+    margin-bottom: 0px;
+}
+
+.serviceTemplate .breadcrumbs a,
+.serviceTemplate .breadcrumbs span {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif !important;
+    text-decoration: none;
+}
+
+.serviceTemplate .breadcrumbs a {
+    color: #444;
+}
+
+.serviceTemplate .breadcrumbs .separator {
+    color: #319a52;
+    font-weight: 700;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.serviceTemplate .breadcrumbs span {
+    color: #319a52;
+    font-weight: 500;
+}
+
+.sitemap-container {
+    padding: 30px 15px;
+    width: 100%;
+}
+
+.sitemap-title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Pure CSS Tab System */
+.sitemap-tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-nav {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 40px;
+}
+
+.tab-nav label {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #6c757d;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+}
+
+.tab-nav label:first-of-type {
+    padding-left: 0;
+}
+
+.tab-nav label:hover {
+    color: #319a52;
+}
+
+#tab-pages:checked~.tab-nav label[for="tab-pages"],
+#tab-posts:checked~.tab-nav label[for="tab-posts"] {
+    color: #319a52;
+    border-bottom: 2px solid #319a52;
+}
+
+.tab-panels {
+    position: relative;
+    padding: 0 15px;
+}
+
+.tab-panel {
+    display: none;
+}
+
+#tab-pages:checked~.tab-panels .pages-panel,
+#tab-posts:checked~.tab-panels .posts-panel {
+    display: block;
+}
+
+input[name="sitemap-toggle"] {
+    display: none;
+}
+
+/* 3-Column Layout for Pages */
+.pages-list-container {
+    column-count: 3;
+    column-gap: 40px;
+}
+
+/* 2-Column Layout for Posts */
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.category-section {
+    break-inside: avoid;
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #319a52;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* List Item with Circle-Dot Icon */
+.sitemap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap-list li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    break-inside: avoid;
+}
+
+.sitemap-list li a {
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+    line-height: normal;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+.sitemap-list li a:hover {
+    color: #319a52;
+}
+
+/* The exact ring-and-dot icon from reference */
+.circle-img {
+    width: 6px;
+    height: 6px;
+    background-color: #319a52;
+    border-radius: 50%;
+    display: block;
+    outline: 1px solid #319a52;
+    outline-offset: 3px;
+    margin-right: 25px;
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .pages-list-container {
+        column-count: 2;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .serviceTemplate .breadcrumbs {
+        padding: 16px 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .pages-list-container {
+        column-count: 1;
+    }
+
+    .serviceTemplate .breadcrumbs {
+        padding: 16px 20px;
+    }
+
+    .sitemap-title {
+        font-size: 32px;
+    }
+
+    .tab-nav {
+        flex-direction: row;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .tab-nav label {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+/* ==========================================================================
+   Insurance Section
+   ========================================================================== */
+.my-60 {
+    margin-top: clamp(35px, 5vw, 60px);
+}
+
+.mx-60 {
+    margin-bottom: clamp(35px, 5vw, 60px);
+}
+
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 17px 24px;
+}
+
+.insurance-logo,
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.insurance-logo {
+    box-shadow: 0 0 8.14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    max-width: 18%;
+    width: 100%;
+    min-height: 130px;
+}
+
+@media only screen and (max-width: 575px) {
+    .container.insurance-container {
+        padding-right: 0;
+    }
+
+    .insurance-logo img {
+        min-height: 120px;
+        object-fit: scale-down;
+    }
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1,
+.text50 h2,
+.text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

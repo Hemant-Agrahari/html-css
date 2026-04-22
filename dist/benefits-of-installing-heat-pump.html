@@ -10,13 +10,98 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/benefits-of-installing-heat-pump/benefits-of-installing-heat-pump.css">
     <script type="application/ld+json">{
@@ -40,7 +125,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -55,7 +140,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -452,7 +537,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -479,12 +564,12 @@
           <div class="container">
             <div class="breadcrumbs5">
               <div class="home-group">
-                <a class="home7" href="../../index.html">Home</a>
-                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="../pages/benefits-of-installing-heat-pump/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <a class="home7" href="index.html">Home</a>
+                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
                 <a style="font-weight: normal" class="latest-news" href="blog.html">Blog</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/benefits-of-installing-heat-pump/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
                 <a style="font-weight: normal" class="latest-news" href="#">Heating Service</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/benefits-of-installing-heat-pump/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
               </div>
               <div class="why-do-slab-leaks-occur-mostly-wrapper">
                 <div class="why-do-slab">TOP 5 BENEFITS OF INSTALLING A HEAT PUMP IN YOUR HOME</div>
@@ -508,10 +593,10 @@
                   Views : <span>1200</span>
                 </div>
               </div>
-              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="TOP 5 BENEFITS OF INSTALLING A HEAT PUMP IN YOUR HOME" src="../pages/benefits-of-installing-heat-pump/assets/blog/benefits-of-installing-heat-pump.webp" width="708" height="333" decoding="async">
+              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="TOP 5 BENEFITS OF INSTALLING A HEAT PUMP IN YOUR HOME" src="assets/images/blog/benefits-of-installing-heat-pump.webp" width="708" height="333" decoding="async">
               <div class="blog-contact">
                 <a href="tel:+17603927616" class="blog-num">(760) 392-7616</a>
-                <a class="blog-contact-btn" href="../../contact-us.html">Schedule An Appointment</a>
+                <a class="blog-contact-btn" href="contact-us.html">Schedule An Appointment</a>
               </div><div class="post-injected-content mt-4" style="color: #4a4a4a;">
 <div class="signs-of-a-slab-leak-parent"><div class="text50"><p>As the air conditioner or furnace, the heat pumps are another method of cooling or heating your space. Well, it doesn't work like the traditional system. The heat pumps regulate the temperature of the space. So, if you plan to <a href="https://www.ezheatandair.com/san-diego-heat-pump-installation-repair/" title="heat pump installation in San Diego"><strong>install a heat pump</strong></a> in San Diego, hire EZ Heat and Air.</p><h2 class="blog_sandiego_title">Introduction:</h2><p><strong>Heat pump installation</strong> in your residential or commercial space near San Diego and Orange County is the best alternative for fulfilling your heating and cooling needs. Do you have any problems with your central air conditioner system or furnace?</p><p>If you have, you might be in tension about replacing both systems! It would be ideal for putting your money into a heat pump system rather than investing in a new system and labor costs.</p><p>A heat pump is designed in such a way that it can smoothly deliver the heating energy from one place to another. The pump is integrated with the liquid refrigerant and the compressor. No doubt, during winters, <strong>heat pump installation</strong> removes the heat energy from the pump.</p><p>Are you getting prepared for the summer? Summer is more than just applying sunscreen and getting into the pool. Apart from these fun activities, it is equally necessary to prepare your space! If you want to make your space comfortable and efficient during summer, you should install a heat pump and understand <strong>how do heat pumps work</strong>?</p><p>In this article, we further discuss how the <strong>heat pump installation</strong> works and the benefits of installing it at home!</p><h2 class="blog_sandiego_title">What Is A Heat Pump &amp; How Does It Work According To The Climate?</h2><p>Want to know <strong>what is a heat pump and how it works?</strong> A heat pump is worth it because of its efficiency and effective solution. It provides your home with greater comfort during every climate. There are zero requirements to invest in a heater and air-conditioner for two different times. A single heat pump is enough to receive both functions simultaneously. Currently, it has become the first choice for every homeowner.</p><p><strong>Are heat pumps efficient?</strong> The heat pumps work similarly to the air conditioner system. The only thing which makes a heat pump unique is the reversing valve. The role of the reversing valve is to reverse the refrigerant flow so that the heat can reach your space. You can flip the cool and heat air with just a single switch.</p><p>The heat pumps are available in a variety of models. Some heat pumps work based on the thermostat, while some work based on a duct. Most people have a similar question: how <strong>does a heat pump work in winter?</strong> Every model is designed in the best way so that it can balance the room temperature. In winter, the heat pump relieves the heat from outside and delivers it into your space to keep it warm.</p><p>So, does the furnace and air conditioner system show a deficiency in fulfilling your heating &amp; cooling needs? EZ Heat and Air experts will come to rescue you! They will install the heat pump &amp; make you aware of the <strong><a href="https://marcothomas0009.wixsite.com/heatrepair1/post/5-benefits-of-having-a-heat-pump-installed" rel="noopener" target="_blank">advantages of the heat pump</a></strong>, which are discussed below.</p><h2 class="blog_sandiego_title">The Surprising Benefits Of Installing Heat Pump:</h2><h3 class="servi-title h-f-s-26">Deliver better energy efficiency:</h3><p>The primary work of a heat pump is moving air from one place to another. During winters, it brings the warm air from outside and pumps it to keep the entire inside warm.</p><p>If we talk about summers, it only reverses the process. So, during this complete process, it saves a lot of energy use. You can notice the changes in your energy bills. The heat pumps are the alternative solution for your home's furnace and air conditioner. <strong>Installing a heat pump</strong> is the most cost-effective decision you have ever made as a homeowner.</p><h3 class="servi-title h-f-s-26">The best option for saving investment:</h3><p>Do you know that installing a heat pump can save your investment? The heat pump is a 2-in-1 solution that provides cooling and heating facilities. It can work in warmer climates as well as in the winters. So, it saves you money from buying an air conditioner and furnace system. Purchasing this will help you to understand <strong>how efficient are heat pumps</strong>?</p><p>All you have to do is just press the button through the remote app and balance the temperature as per your need. The heat pumps are manufactured so that they can quickly change the nature of their work. When you install it at your home by the <strong><a href="https://www.ezheatandair.com/san-diego-heat-pump-contractors/" title="heat pump contractor in San Diego">experts at EZ Heat and Air</a></strong>, it can efficiently control the room temperature.</p><h3 class="servi-title h-f-s-26">Receive improved air quality:</h3><p>The heat pump is the most demanding system for homeowners. It combines and circulates the outside and inside air into your space. As a result, you will receive improved air quality. With regular maintenance and effective filters, anyone can receive fresh air.</p><p>It doesn't burn anything to create heat like any other traditional system. When installing a heat pump, the chances of producing smoke and fumes are almost zero. So, the chance of spreading dust, foul odors, and other harmful particles through the air is zero. This is what makes the heat pump best for asthma patients.</p><h3 class="servi-title h-f-s-26">Receive uniform &amp; consistent heating:</h3><p>When you have a traditional HVAC system, it generates an uneven temperature. The cause of spreading uneven temperature is lack of maintenance and incorrect size. But when you have the heat pump, the scenario is different. It reduces the condensation in your space. Ultimately this tells <strong>how does a geothermal heat pump work?</strong> The heat pumps are designed with comfortable settings compared to the traditional ones.</p><h3 class="servi-title h-f-s-26">Makes less noise:</h3><p>The heat pump produces less noise than the traditional one. The heat pump's compressor is placed outside that, allowing them to make less noise. So, if you are quite frustrated with the continuous beep sounds of your existing system, you can replace that with a heat pump.</p><p>Along with the above-discussed benefits, many more factors make this system the best. The other benefits are associated with environmental and financial benefits.</p><p>Over the last decades, the popularity of heat pumps has been increasing, and people are trying to understand how <strong>a ground source heat pump works</strong>? Want to go through some more exciting benefits? Here we have mentioned those.</p><h2 class="blog_sandiego_title">Additional Benefits Of Installing A Heat Pump:</h2><h3 class="servi-title h-f-s-26">Lower the carbon emission:</h3><p>There are less carbon emissions when installing a heat pump at your home. It doesn't use any combustion directly to generate heat. This system uses only a tiny amount of electricity production to start the procedure. It makes the heat pump an eco-friendly option for heating/cooling technology. In addition, the heat pumps come with the R410A refrigerant that doesn't layer the ozone layer.</p><h3 class="servi-title h-f-s-26">No need to invest in fuel:</h3><p>Multiple heating and cooling systems need different fuels to run efficiently. But from now on you don't have to be conscious about whether you have the fuel supply at your home or not. The heat pump doesn't require any fuel. You can operate the heat pump as much as possible when you have a smooth electricity supply at your home.</p><h3 class="servi-title h-f-s-26">Longer lifespan of heat pumps:</h3><p>Heat pumps can last long when you take care of them. Timely maintenance or regular inspection is the only way to keep your heat pump long-lasting. Mainly the heat pump lasts for 14 to 15 years. As per the expert of EZ Heat and Air, the heat pump needs to be inspected annually.</p><h3 class="servi-title h-f-s-26">Cut down the energy cost:</h3><p>By installing a heat pump, you can reduce the energy cost and fuel bills. Buying heat pumps with a high energy efficiency rating will reduce energy costs. It also adds value to your property and is convenient to use.</p><p>So, what have you decided? Do you also want to grab these benefits? If you are, hire the <strong>heat pump installation</strong> team and ask for the required service.</p><h2 class="blog_sandiego_title">How Does EZ Heat And Air Help To Install A Heat Pump?</h2><p>When you ask EZ Heat and Air, they will bring all the essential tools to your space for inspection. The platform offers multiple other services to their customers, including air conditioning, <strong>heat pump installation</strong>, heating, duct cleaning, air purification, and many more. If you live near San Diego, Orange County, and Riverside, you can receive efficient service from them.</p><p>The company has built its reputation among thousands of customers by serving premium customer service at a reasonable cost. The skilled team, 24 hours emergency service, high integrity, and money-back guarantee commitment make them the perfect choice for installing heat pumps and other services. With them, can you understand <strong>how a heat pump works in summer?</strong></p><p>The qualified team helps install and service branded air conditioning systems. They will tell you <strong>how do geothermal heating and cooling work?</strong> This platform offers its services to commercial and residential systems by putting in their best efforts.</p><h3 class="blog_sandiego_title">Conclusion</h3><p>When it comes to cooling and heating systems, you are always looking for something where you can save costs. Heat <strong>pump installation</strong> is popular because of its convenience and energy-reducing features.</p><p>The cost of electricity is increasing at a high pace. To save electricity costs, it is necessary to install a heat pump. Want to know more about <strong>how a heat pump works with a furnace?</strong> Connect with the EZ Heat and Air team to learn which model would be suitable for your space.</p></div></div>
 </div>
@@ -551,17 +636,17 @@
                 <div class="recent-posts">
                   <!-- Hardcoded recent posts -->
                   <div class="recent-post-item">
-                    <img src="../pages/benefits-of-installing-heat-pump/assets/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
+                    <img src="assets/images/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
                     <a href="5-reasons-your-water-heater-isnt-working-and-how-san-diego-experts-can-help.html">5 Reasons Your Water Heater Isn’t Working and How San
                       Diego Experts Can Help</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/benefits-of-installing-heat-pump/assets/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
+                    <img src="assets/images/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
                     <a href="how-san-diego-climate-affects-water-heater-performance.html">How San Diego’s Climate Affects Water Heater
                       Performance</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/benefits-of-installing-heat-pump/assets/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
+                    <img src="assets/images/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
                     <a href="hvac-repair-in-san-diego-essential-tips-to-keep-your-system-running-smoothly.html">HVAC Repair in San Diego, CA: Essential Tips to Keep Your
                       System Running Smoothly</a>
                   </div>
@@ -577,22 +662,22 @@
             <div class="share-group">
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/benefits-of-installing-heat-pump/assets/facebook-share-icon.svg">
+                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/facebook-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/benefits-of-installing-heat-pump/assets/twitter-share-icon.svg">
+                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/twitter-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/benefits-of-installing-heat-pump/assets/linkedin-share-icon.svg">
+                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/linkedin-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/benefits-of-installing-heat-pump/assets/email-share-icon.svg">
+                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/email-share-icon.svg">
                 </button>
               </span>
             </div>
@@ -602,17 +687,17 @@
         <div class="container" style="margin-top: 40px; margin-bottom: 40px">
           <div class="blog-detail-page-inner px-0">
             <div class="frame-parent37">
-              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120">
+              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120" decoding="async">
               <div class="frame-parent38">
                 <div class="frame-parent39">
                   <div class="frame-wrapper">
                     <div class="text-parent3" style="gap: 16px">
-                      <a href="../../michael-cabral.html" style="text-decoration: none; color: inherit">
+                      <a href="michael-cabral.html" style="text-decoration: none; color: inherit">
                         <div class="text94" style="color: #2c2e47">
                           Michael Cabral
                         </div>
                       </a>
-                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44">
+                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="text95">Marketing Manager</div>
@@ -653,15 +738,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -688,7 +773,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -702,11 +787,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -714,9 +799,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -748,10 +833,10 @@
 </footer>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script defer="" src="../shared/js/modules/header.js"></script>
-<script defer="" src="../shared/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer=""></script>
+<script defer="" src="shared/js/modules/header.js"></script>
+<script defer="" src="shared/js/main.js"></script>
 
 
   

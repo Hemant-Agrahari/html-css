@@ -1,0 +1,77 @@
+/* VCarousel Base Styles */
+.vc-carousel {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    overflow: hidden;
+}
+
+.vc-carousel .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.vc-carousel .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.vc-carousel .slick-slide {
+    display: block;
+    height: 100%;
+    min-height: 1px;
+}
+
+/* Arrows */
+.vc-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+/* Dots */
+.slick-dots.vc-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+    gap: 0.5rem;
+}
+
+.slick-dots.vc-dots li button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color, #31a05b);
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.slick-dots.vc-dots li.slick-active button {
+    background: var(--primary-color, #31a05b);
+}

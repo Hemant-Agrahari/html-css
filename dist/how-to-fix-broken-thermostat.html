@@ -10,13 +10,98 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/how-to-fix-broken-thermostat/how-to-fix-broken-thermostat.css">
     <script type="application/ld+json">{
@@ -40,7 +125,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -55,7 +140,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -452,7 +537,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -479,12 +564,12 @@
           <div class="container">
             <div class="breadcrumbs5">
               <div class="home-group">
-                <a class="home7" href="../../index.html">Home</a>
-                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="../pages/how-to-fix-broken-thermostat/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <a class="home7" href="index.html">Home</a>
+                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
                 <a style="font-weight: normal" class="latest-news" href="blog.html">Blog</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-fix-broken-thermostat/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
                 <a style="font-weight: normal" class="latest-news" href="#">Heating Service</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-fix-broken-thermostat/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
               </div>
               <div class="why-do-slab-leaks-occur-mostly-wrapper">
                 <div class="why-do-slab">How To Fix A Broken Thermostat And The Warning Signs</div>
@@ -508,10 +593,10 @@
                   Views : <span>1200</span>
                 </div>
               </div>
-              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="How To Fix A Broken Thermostat And The Warning Signs" src="../pages/how-to-fix-broken-thermostat/assets/blog/how-to-fix-broken-thermostat.webp" width="708" height="333" decoding="async">
+              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="How To Fix A Broken Thermostat And The Warning Signs" src="assets/images/blog/how-to-fix-broken-thermostat.webp" width="708" height="333" decoding="async">
               <div class="blog-contact">
                 <a href="tel:+17603927616" class="blog-num">(760) 392-7616</a>
-                <a class="blog-contact-btn" href="../../contact-us.html">Schedule An Appointment</a>
+                <a class="blog-contact-btn" href="contact-us.html">Schedule An Appointment</a>
               </div><div class="post-injected-content mt-4" style="color: #4a4a4a;">
 <div class="signs-of-a-slab-leak-parent"><div class="text50"><p>A broken thermostat creates many issues in your room heating system. Find out how you can find and fix thermostat issues.</p><p>Do you feel the central heating system you have installed in your home does not perform well in winter? You might be blaming the brand or the quality and durability of the central heating and room heating system, but heating issues might be due to a minor thermostat-related problem.</p><p>In this blog, we will try to find out the right answers to these questions: “<strong>how to check if room thermostat is faulty</strong>?” “<strong>how to fix a thermostat on the</strong>?” and “<strong>how to fix an old thermostat</strong>?</p><h2 class="blog_sandiego_title">What Is The Importance Of A Well-Functioning Thermostat?</h2><p>Having a well-functioning <strong><a href="https://www.ezheatandair.com/san-diego-air-conditioner-thermostat/">AC thermostat installation</a></strong> in San Diego done at your home offers many benefits. It plays a significant role in the comfort of your home, but the problematic condition begins when the system's performance goes down. Minor issues in the thermostat can turn into more significant issues and ultimately harm the entire room heating system.</p><p>Any slight change can impact the heating and cooling system of your home. Find out <strong><a href="https://www.ezheatandair.com/broken-thermostant-symptoms/">how to check if a room thermostat is faulty</a></strong>.</p><p>You may have faced some dramatic situations due to issues with thermostats, such as smoke alarms getting activated and sparkling sounds. Sometimes, the malfunctions in the central heating thermostat are not so visible but subtle and sudden! Learning the signs of thermostat failure in the central heating system and how to fix them help you to deal with this condition instantly.</p><p>It is best to call licensed, certified HVAC technicians if you are wondering “how to tell if your central heating thermostat is broken.”</p><h2 class="blog_sandiego_title">Warning Signs Of A Broken Thermostat</h2><h3 class="small_heading_title" style="font-size:1.6vw">Zero Power Thermostats</h3><p>The screen usually displays the temperature and the programmed schedules. If you notice the screen is dark, the batteries might be dead, or the system's thermostat is broken. In addition, if there is no change in the temperature, even if you have adjusted or the display is unresponsive, it means a thermostat malfunction must be addressed.</p><h3 class="small_heading_title" style="font-size:1.6vw">Central Heating System Won't Turn On</h3><p>The thermostat is the central controlling system of the room heating equipment. It is responsible for balancing the temperature of the space. A malfunction in the thermostat can create difficulties in turning on the heat pump and furnace.</p><p>The thermostat might have reached the end of its lifespan. In most cases, there is an issue with wiring because the electrical wires are responsible for sending a transmission. But when the wires are damaged, the thermostat is cut off.</p><h3 class="small_heading_title" style="font-size:1.6vw">Central Heating System Won't Turn Off</h3><p>In some cases, the situation is just the opposite. In these cases, a faulty thermostat makes your central heating run non-stop. If you feel that the system is running over time without any break, try to switch the on and off buttons of the thermostat. In these cases, you must check the wiring system of the central heating tool. To prevent such type of unexpected malfunction, you must check and replace the thermostat as and when required.</p><h3 class="small_heading_title" style="font-size:1.6vw">Unable To Balance Temperature</h3><p>When the thermostat malfunctions, it won't work properly. It starts displaying the wrong temperature of your space on its display. So, if you feel your room is hotter than its displayed temperature, there might be issues with the thermostat.</p><h3 class="small_heading_title" style="font-size:1.6vw">The Thermostat Is Not Responding</h3><p>Have you ever gone through the dramatic difference between the thermostat reading and the environment? The central heating systems are installed to provide comfort and efficiency, but what if it started making differences in the temperature? So, you should remember that the thermostat may be the culprit if the airflow is not balanced depending on the room temperature. When you set the thermostat temperature, it responds immediately and displays on the display section. You can also check by taking your hand on a vent to feel whether it is too hot. If you don't feel anything for more than a second, you must replace the thermostat.</p><h3 class="small_heading_title" style="font-size:1.6vw">Short Cycling</h3><p>During the short cycling process, your central heating system will power on and off quickly without any notification. Before completing an entire cycle of heating and cooling, it automatically turns off. In this condition, your central heating system cannot reach your expectations by balancing the indoor temperature of your space. The first thing you should check during this situation is the air filter. If the air filter is blocked by dirt and debris, it causes short cycling. Therefore it is necessary to schedule the maintenance of the central heating system. In addition, if the air filter is in good condition, it might cause inaccurate temperature readings. So, if you don't want to feel that inconvenience, it's time to ask the experts of EZ Heat and Air.</p><h3 class="small_heading_title" style="font-size:1.6vw">The Imperfect Programmed Settings</h3><p>The thermostat in the central heating system is designed in such a way that it can remember the setting and schedules for a more extended period. The central heating system’s thermostat is programmable and can't be changed until you take action. A broken thermostat will not be able to work as programmed.</p><h2 class="blog_sandiego_title">Steps For Thermostat Troubleshooting</h2><h3 class="small_heading_title" style="font-size:1.6vw">Take A Look At The Screen</h3><p>Initially, you should check the thermostat's screen and make sure the thermostat should be turned on! Zero indications on the screen mean failure thermostat.</p><h3 class="small_heading_title" style="font-size:1.6vw">Change The Batteries</h3><p>Most advanced thermostats rely on the battery. So, check whether the battery has power or not. If the screen is blank, change the battery and then recheck whether the problem has been resolved or not. But what after this, the system is not resolved?</p><h3 class="small_heading_title" style="font-size:1.6vw">Check The Settings</h3><p>In the next step, check the temperature setting. The settings in temperature occur due to the batteries or thermostat malfunction. During this, make sure the settings are done in the right way. The temperature settings should be done according to the temperature.</p><h3 class="small_heading_title" style="font-size:1.6vw">Check Circuit Breakers</h3><p>When you hire experts to check whether the thermostat is broken or not, they will check the circuit breakers. Make sure the circuit breakers are not tripped. If it is tripped, reset it and test the HVAC system and the thermostat again.</p><h3 class="small_heading_title" style="font-size:1.6vw">Check Thermostat Location</h3><p>The thermostat's location can also be an issue. If you feel the function of the thermostat is getting changed day by day, then it means you should take proper action as soon as possible. The larger holes behind the thermostat can cause inaccurate temperature readings. Therefore, ask the expert repairers to ensure the thermostat is positioned correctly. You can understand <strong><a href="https://marcothomas0009.wixsite.com/heatrepair1/post/how-are-thermostats-installed-in-san-diego">how easy it is to install a thermostat with them</a></strong>.</p><h2 class="blog_sandiego_title">Why Should I Hire EZ Heat And Air?</h2><p>The HVAC thermostat plays an indispensable role in giving comfort to your space. If the thermostat of the HVAC system is damaged or broken and you are going through a bunch of problems, it is time to connect with experts whom you can trust.</p><p>A broken thermostat in the HVAC system means an unreliable airflow system that ultimately leads to skyrocketing energy bills. So, what are you looking for? Take proper action to restore the comfort and efficiency of your home. If you cannot handle the situation, hiring someone with extensive knowledge in this field would be great.</p><p>If you are seeking expert guidance, connect with an EZ Heat and Air technician. They will conduct a free consultation and let you know if there are any problems with your thermostat. EZ Heat and Air offers affordable services for thermostat repair and replacements. The experts also excel at <strong>smart thermostat installation</strong>.</p><p>EZ Heat and Air offer top-notch heating and cooling system repair, installation, and maintenance services. The company offers the services like repair, replacement, and regular maintenance. The expert team knows <strong>how to replace a thermostat with a smart thermostat</strong>, and they have the right industry knowledge, which makes the work easy and smooth.</p><p>Are you frustrated by the broken thermostat and inefficient airflow? If you want to optimize the indoor air quality of your home, then it's high time to take some action with the help of experts. <strong><a href="https://www.ezheatandair.com/">EZ Heat and Air</a></strong> offer a reasonable price for a complete heating system inspection and repair.</p></div></div>
 </div>
@@ -551,17 +636,17 @@
                 <div class="recent-posts">
                   <!-- Hardcoded recent posts -->
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-fix-broken-thermostat/assets/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
+                    <img src="assets/images/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
                     <a href="5-reasons-your-water-heater-isnt-working-and-how-san-diego-experts-can-help.html">5 Reasons Your Water Heater Isn’t Working and How San
                       Diego Experts Can Help</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-fix-broken-thermostat/assets/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
+                    <img src="assets/images/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
                     <a href="how-san-diego-climate-affects-water-heater-performance.html">How San Diego’s Climate Affects Water Heater
                       Performance</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-fix-broken-thermostat/assets/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
+                    <img src="assets/images/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
                     <a href="hvac-repair-in-san-diego-essential-tips-to-keep-your-system-running-smoothly.html">HVAC Repair in San Diego, CA: Essential Tips to Keep Your
                       System Running Smoothly</a>
                   </div>
@@ -577,22 +662,22 @@
             <div class="share-group">
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-fix-broken-thermostat/assets/facebook-share-icon.svg">
+                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/facebook-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-fix-broken-thermostat/assets/twitter-share-icon.svg">
+                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/twitter-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-fix-broken-thermostat/assets/linkedin-share-icon.svg">
+                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/linkedin-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-fix-broken-thermostat/assets/email-share-icon.svg">
+                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/email-share-icon.svg">
                 </button>
               </span>
             </div>
@@ -602,17 +687,17 @@
         <div class="container" style="margin-top: 40px; margin-bottom: 40px">
           <div class="blog-detail-page-inner px-0">
             <div class="frame-parent37">
-              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120">
+              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120" decoding="async">
               <div class="frame-parent38">
                 <div class="frame-parent39">
                   <div class="frame-wrapper">
                     <div class="text-parent3" style="gap: 16px">
-                      <a href="../../michael-cabral.html" style="text-decoration: none; color: inherit">
+                      <a href="michael-cabral.html" style="text-decoration: none; color: inherit">
                         <div class="text94" style="color: #2c2e47">
                           Michael Cabral
                         </div>
                       </a>
-                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44">
+                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="text95">Marketing Manager</div>
@@ -653,15 +738,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -688,7 +773,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -702,11 +787,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -714,9 +799,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -748,10 +833,10 @@
 </footer>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script defer="" src="../shared/js/modules/header.js"></script>
-<script defer="" src="../shared/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer=""></script>
+<script defer="" src="shared/js/modules/header.js"></script>
+<script defer="" src="shared/js/main.js"></script>
 
 
   

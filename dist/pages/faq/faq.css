@@ -1,0 +1,216 @@
+/* CSS for faq */
+
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* ==========================================================================
+   Breadcrumbs CSS
+   ========================================================================== */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+}
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb span,
+.serviceTemplate .home-breadcrumb .faq-breadcrumb-text {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+}
+
+/* ==========================================================================
+   FAQ Section CSS (Accordion)
+   ========================================================================== */
+.faq-section .accordion-item {
+    border-inline: none;
+    border-radius: 0 !important;
+}
+
+.faq-section .accordion-item .accordion-button {
+    background: none;
+    color: #2d2d2d;
+    padding-left: 80px !important;
+    border-radius: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.faq-section .accordion-item .accordion-button:after {
+    content: "";
+    background-image: url('assets/less.webp');
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    background-position: 50%;
+    position: absolute;
+    left: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-section .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq-section .accordion-item .accordion-button.collapsed:after {
+    content: "";
+    background-image: url('assets/pluse.webp');
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+    background-position: 50%;
+    position: absolute;
+    left: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-section .accordion-item .accordion-body {
+    padding-left: 82px !important;
+    padding-top: 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.faq-section .accordion-item:last-of-type {
+    border-bottom: 0;
+}
+
+/* ==========================================================================
+   Testimonials Section CSS
+   ========================================================================== */
+.serviceTemplate .testimonials-section {
+    padding: 80px 0;
+}
+
+.serviceTemplate .testimonial-card {
+    border: none !important;
+    background: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px 0px !important;
+    border-radius: 20px !important;
+    padding: 50px 30px !important;
+    margin: 5px !important;
+    display: block !important;
+    height: 100%;
+}
+
+.serviceTemplate .testimonial-card .stars {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.serviceTemplate .testimonial-card .stars img {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+}
+
+.serviceTemplate .testimonial-card p {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 26px;
+    color: #6e6e6e !important;
+    margin: 24px 0 16px !important;
+    padding: 4px 0 !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .testimonial-card h5 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal !important;
+    margin: 24px 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    color: #2d2d2d !important;
+    display: block !important;
+}
+
+.testimonial-card-item {
+    display: flex !important;
+    height: 100%;
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

@@ -10,13 +10,98 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/how-to-make-ac-work-efficiently/how-to-make-ac-work-efficiently.css">
     <script type="application/ld+json">{
@@ -40,7 +125,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -55,7 +140,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -452,7 +537,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -479,12 +564,12 @@
           <div class="container">
             <div class="breadcrumbs5">
               <div class="home-group">
-                <a class="home7" href="../../index.html">Home</a>
-                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="../pages/how-to-make-ac-work-efficiently/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <a class="home7" href="index.html">Home</a>
+                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
                 <a style="font-weight: normal" class="latest-news" href="blog.html">Blog</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-make-ac-work-efficiently/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
                 <a style="font-weight: normal" class="latest-news" href="#">Heating Service</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/how-to-make-ac-work-efficiently/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
               </div>
               <div class="why-do-slab-leaks-occur-mostly-wrapper">
                 <div class="why-do-slab">How To Make Your AC Work Efficiently</div>
@@ -508,10 +593,10 @@
                   Views : <span>1200</span>
                 </div>
               </div>
-              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="How To Make Your AC Work Efficiently" src="../pages/how-to-make-ac-work-efficiently/assets/blog/how-to-make-ac-work-efficiently.webp" width="708" height="333" decoding="async">
+              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="How To Make Your AC Work Efficiently" src="assets/images/blog/how-to-make-ac-work-efficiently.webp" width="708" height="333" decoding="async">
               <div class="blog-contact">
                 <a href="tel:+17603927616" class="blog-num">(760) 392-7616</a>
-                <a class="blog-contact-btn" href="../../contact-us.html">Schedule An Appointment</a>
+                <a class="blog-contact-btn" href="contact-us.html">Schedule An Appointment</a>
               </div><div class="post-injected-content mt-4" style="color: #4a4a4a;">
 <div class="signs-of-a-slab-leak-parent"><div class="text50"><p>The advent calendars are already hitting the supermarket, and the daylights are in full swing, indicating that summer days are not too far. But as the summer sun beats this time, have you got any special plans to keep your home, your comfort place cool without elevating your budget? Well, you know that I am talking about your home's<strong> air conditioning installation</strong>.</p><p>Air conditioners help you to have a soothing cool atmosphere at your home all year round, especially during the months of hot summer. But at the same time, you should know that it accounts for almost 12% of your home energy expenditure per month, and it can go up to 70% in the summer days. Whether you have air conditioning in your whole house or a single room, you might have observed that it contributes the biggest energy use in your house. </p><p>Everyone loves to have cooling air at home on summer days, but what's not so welcomed is the sudden increase in the power bills. These power bills can increase to more extent if your AC doesn't work efficiently. Thus for reducing the energy consumption and cost of AC, you need to improve the efficiency of the AC unit. Though this is not an easy task, working on ways to increase the efficiency of the AC can help you to cut down the cost of energy consumption. Thus you get the most from your AC units. </p><p>So, for you, we have brought some ways that you can get the best out of your AC by increasing its efficiency. Before moving on to the tips first, let's understand how your AC works and what are the signs that your AC system is less efficient.</p><h2 class="blog_sandiego_title">Understand How Your AC Works</h2><p>The central conditioner comprises two basic parts: the outdoor unit and the indoor unit. The outdoor unit is the compressor or condenser that is on the side of the AC inside your home. The indoor unit is the evaporator that sits near the central duct in the furnace. If your AC has a heat pump instead of a furnace, then the indoor unit of your AC will be in the air handler. This is the basic structure of the AC.</p><p>However, there are signs that your AC is not working efficiently. Let’s peep into it.</p><p><strong>Increase In Cost </strong></p><p>The most obvious sign indicating that your AC is not efficient is its increased cost. The increasing cost here implies an increase in usage. When the AC is not in good condition, it doesn't cool in a better way, as it used to at the time of<strong> air conditioning installation in Los Angeles</strong>. Thus the usage increases, and also the energy consumption increases. This ultimately increases the cost.</p><p><strong>Increasing Cycling </strong></p><p>The brain behind your split conditioner installation is the thermostat. Sometimes due to certain reasons such as not proper cleaning, you can notice the frequent on and off of your thermostat. The dust and everyday usage may cause this condition of the thermostat. This indicates that the thermostat in your AC needs to be replaced as soon as possible. Another specific reason for the improper working of the thermostat might be its compressor. The professionals can determine the issue behind the compressor that's causing frequent cycling of the thermostat.</p><p><strong>Ice On The Compressor</strong></p><p>Another important reason indicating an <a href="https://www.ezheatandair.com/los-angeles-air-conditioner-repair-installation"><strong>urgent AC repair and maintenance</strong></a> in Los Angeles is the settling of ice on the compressor. Due to the leak of the coolant line or the damage to the coils. Another possible reason might also be the dirty filter of AC. These all Amy cause settling on ice on the compressor. If you notice ice on your compressor you can be sure that your AC isn't working like it should, and it is not at all giving its best.</p><p><strong>Unusual Sounds</strong></p><p>Each appliance in your home may be a refrigerator or a washing machine that has some sort of unique sound. The same goes with AC, it has its specific sound. After using such appliances for years you are quite aware of what sound they produce. If you notice a certain change in the sound that you hear from AC then you should immediately shut the AC down and don't operate until you get it checked from the top <strong>air conditioning service in Los Angeles</strong>.</p><p>Now, as you are acquainted with the signs of improper working of AC. Let's move towards the ways by which you can get your AC work efficiently.</p><p><strong>1) Try to keep low temperatures around the thermostat sensor</strong></p><p>One of the most significant reasons that affect the efficiency of the AC as beloved by professionals is the temperature around the thermostat of your AC. You need to ensure that the temperature around the thermostat stays low so that the efficiency of AC increases. Reducing ambient heat reduces the energy consumption, and thus, the efficiency of the AC increases.</p><p>So how can you do that? Follow the simple steps below to minimize the ambient heat. </p><ol><li>During the daytime, when the sunlight directly falls on your building, keep window coverings closed at that time.</li><li>You have to reduce overall heat production and so you should also have proper vents in the kitchen and bathrooms to disperse heat.</li><li>Turn off the computers and AC when they are not in use. </li><li>If you have any source of light, tube light, or bulb in the area where you have installed a central air conditioner, keep it off to reduce excessive heating of AC.</li><li>Prefer using electrical appliances during the times when the temperature outside is low.</li></ol><p><strong>2) Vacuum And Clean Your Vents And Filters</strong></p><p>Most people owning an AC in their homes believe that the vent and filter of their AC and condition of vents covered in the home are only responsible for the fresh air indoors. But actually, the AC filters affect the whole working of the AC. If the AC filters are filled with dust, it requires more energy to pump in cool air. Thus it becomes important to clean filters. Firstly, you need to do certain evaluations such as:</p><ul class="custm-ul"><li>Does your vent look dirty with dust, pet hair, and other debris?</li><li>Do you remember the last time you vacuumed the vents at your home?</li><li>What size of filters are needed for the vents if you don't already have them.</li></ul><p>After analyzing this, now get ready with your vacuum to clean the vents. First, dust your vents, and if required, use the vacuums to remove all the dust from the vents. This is essential for maintaining steady airflow through your air conditioning system. Remove all the dust, toys, or any other debris. If necessary, you can have an HVAC expert change your filter regularly and keep the internal pathway of air in the rooms unobstructed. </p><p><strong>3) Select Smart Thermostat Settings</strong></p><p>Along with changing the environment around your thermostat, you can also consider changing the settings of the thermostat to enhance the functionality of the air conditioner. Check and change the settings to the standard settings recommended by the US Department of Energy -</p><ul class="custm-ul"><li>The temperature should be set to 78°F when you aren't in the house or all the rooms aren't in use.</li><li>Comfortable temperature ranges during the hot summer days are 7-10 °F. This margin can help you save up to 80%.</li><li>Turn on the AC at normal temperatures and after that decrease the temperature. This is the way to use your AC normally instead of cracking it up.</li></ul><p>The bureau of energy also suggests investing in an extra programmable thermostat to retain the standards set by them. With a <a href="https://en.wikipedia.org/wiki/Programmable_thermostat" rel="noopener noreferrer" target="_blank"><strong>programmable thermostat</strong></a>, you can follow the standards even when you forget to adjust the temperature throughout the day.</p><p><strong>4) Servicing Regularly After Your AC Installation</strong></p><p>You can take various efforts to increase the efficiency of the AC, but you can't deny that the professional <strong>air conditioning maintenance in Los Angeles</strong> can enhance the performance of your AC up to 10 times more. It is recommended to get the servicing done for your air conditioning system at least once a year. Ideally, you should get it done before the summer months where its usage will increase 3 folds. Different steps that a professional AC repair contractor might take are as follows:</p><ul class="custm-ul"><li>Cleaning of the drain lines</li><li>They will look for what all parts need to be repaired or changed to increase its efficiency. </li><li>Professionals will <a href="https://www.ezheatandair.com/los-angeles-air-duct-cleaning-services"><strong>improve the insulation around your ductwork</strong></a>.</li><li>Repairing the patching fluid leaks that reduce the <strong>central air conditioning</strong> ability to cool air quickly. </li><li>Replacing the components that had worn out.</li></ul><p>Among all these steps mentioned above, this is the most essential step if you have noticed any issue in the last summer. However, this might reduce the performance of the air conditioning. Thus you should get all the issues resolved. Get it all resolved before the cost of the repair becomes very high, and the worst that could happen is that you might be required to face some of the days without AC in your home on warm summer days.</p><p><strong>5) Get a proper ventilation system at your home </strong></p><p>To add more impact in reducing ambient heat, you can calculate your home properly. During the day, when you are using the air conditioner, let your fans be switched on to circulate air throughout the home, especially where you spend the maximum time of day. The best that you can do for airflow is to leave the doors of the rooms open if you have a central air conditioning at your home. </p><p>If you reside in an area where the atmosphere is quite pleasant during the night times in summer, you can keep the windows open to allow fresh air to enter the rooms. This would generate a good breeze flow throughout the home. </p><p><strong>6) Adjusting the landscape around the outdoor unit</strong></p><p>Now you might be wondering what role would landscape play in the performance of AC? This is simple to understand; the more there is dust near the outdoor unit, the more energy it will require to work. So, undertake the steps given below to keep the landscape as required. </p><ul class="custm-ul"><li>Clean all the twigs, leaves, dust, and any other debris around the unit as frequently as it is possible. </li><li>If you notice any plant coming within a few inches of the unit's surface, simply trim it off. </li><li>Consider planting dense trees nearby in a way to provide shade to the outdoor unit to keep it cool.</li></ul><h3 class="blog_sandiego_title">Wrapping up</h3><p>So, in this article, we have explained all the ways, which will help you to have a cool head with a full wallet over the summer days. Just follow these steps as much as you can, and you can take the help of professionals for Air conditioning maintenance service in Los Angeles if required to get your AC work efficiently. If they suggest the new <strong>AC installation in Los Angeles</strong>, you can get it done before the summer so that you do not need to face the warm days of summer without the air conditioner. </p></div></div>
 </div>
@@ -551,17 +636,17 @@
                 <div class="recent-posts">
                   <!-- Hardcoded recent posts -->
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-make-ac-work-efficiently/assets/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
+                    <img src="assets/images/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
                     <a href="5-reasons-your-water-heater-isnt-working-and-how-san-diego-experts-can-help.html">5 Reasons Your Water Heater Isn’t Working and How San
                       Diego Experts Can Help</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-make-ac-work-efficiently/assets/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
+                    <img src="assets/images/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
                     <a href="how-san-diego-climate-affects-water-heater-performance.html">How San Diego’s Climate Affects Water Heater
                       Performance</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/how-to-make-ac-work-efficiently/assets/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
+                    <img src="assets/images/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
                     <a href="hvac-repair-in-san-diego-essential-tips-to-keep-your-system-running-smoothly.html">HVAC Repair in San Diego, CA: Essential Tips to Keep Your
                       System Running Smoothly</a>
                   </div>
@@ -577,22 +662,22 @@
             <div class="share-group">
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-make-ac-work-efficiently/assets/facebook-share-icon.svg">
+                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/facebook-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-make-ac-work-efficiently/assets/twitter-share-icon.svg">
+                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/twitter-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-make-ac-work-efficiently/assets/linkedin-share-icon.svg">
+                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/linkedin-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/how-to-make-ac-work-efficiently/assets/email-share-icon.svg">
+                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/email-share-icon.svg">
                 </button>
               </span>
             </div>
@@ -602,17 +687,17 @@
         <div class="container" style="margin-top: 40px; margin-bottom: 40px">
           <div class="blog-detail-page-inner px-0">
             <div class="frame-parent37">
-              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120">
+              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120" decoding="async">
               <div class="frame-parent38">
                 <div class="frame-parent39">
                   <div class="frame-wrapper">
                     <div class="text-parent3" style="gap: 16px">
-                      <a href="../../michael-cabral.html" style="text-decoration: none; color: inherit">
+                      <a href="michael-cabral.html" style="text-decoration: none; color: inherit">
                         <div class="text94" style="color: #2c2e47">
                           Michael Cabral
                         </div>
                       </a>
-                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44">
+                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="text95">Marketing Manager</div>
@@ -653,15 +738,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -688,7 +773,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -702,11 +787,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -714,9 +799,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -748,10 +833,10 @@
 </footer>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script defer="" src="../shared/js/modules/header.js"></script>
-<script defer="" src="../shared/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer=""></script>
+<script defer="" src="shared/js/modules/header.js"></script>
+<script defer="" src="shared/js/main.js"></script>
 
 
   

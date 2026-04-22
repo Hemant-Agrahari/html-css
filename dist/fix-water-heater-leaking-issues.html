@@ -10,13 +10,98 @@
 <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/d3df112486f97f47.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/2a86f48a0129c60e.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" href="../assets/css/d376702473bfff86.css" crossorigin="" data-precedence="next">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<link rel="stylesheet" href="../shared/css/header.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d3df112486f97f47.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d3df112486f97f47.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-2a86f48a0129c60e.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-2a86f48a0129c60e.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="assets/css/purged/purged-d376702473bfff86.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="" data-precedence="next">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="assets/css/purged/purged-d376702473bfff86.css"
+    crossorigin=""
+    data-precedence="next"
+  />
+</noscript>
+<link rel="preload" href="shared/css/header.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="shared/css/header.css" />
+</noscript>
+<style>
+  :root {
+    --color-primary: #319a52;
+    --color-secondary: #2c2e47;
+    --color-white: #ffffff;
+    --color-black: #000000;
+  }
+  body {
+    font-family: "Outfit", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .page-header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  .hero-section {
+    position: relative;
+    padding: 50px 0;
+    background: radial-gradient(
+      98.75% 509.43% at 0px 10.41%,
+      rgb(255, 255, 255) 0px,
+      rgb(49, 160, 91) 100%
+    );
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-bg-img {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    right: 5%;
+    bottom: 0;
+    z-index: 1;
+  }
+</style>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+</noscript>
 
     <link rel="stylesheet" href="../pages/fix-water-heater-leaking-issues/fix-water-heater-leaking-issues.css">
     <script type="application/ld+json">{
@@ -40,7 +125,7 @@
   <div class="container-xl">
     <nav class="bg-white navbar navbar-expand-lg navbar-light">
       <div class="top-header">
-        <a href="index.html"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high"><img src="../assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async"></a>
+        <a href="index.html"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="75" height="75" class="brand-logo img-fluid" decoding="async" fetchpriority="high" loading="lazy"><img src="assets/images/ez-brand-logo.svg" alt="logo" width="42" height="42" class="brand-logo-s" decoding="async" loading="lazy"></a>
         <div class="head_time">
           <p class="days">
             IT'S
@@ -55,7 +140,7 @@
         </div>
         <div class="header-service">
           <div class="sevi-logo">
-            <img alt="" src="../assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async">
+            <img alt="" src="assets/images/emergency-service.webp" width="66" height="61" class="" decoding="async" loading="lazy">
           </div>
           <div class="emergency-service">
             <p>
@@ -452,7 +537,7 @@
                 <li class="nav-item mob-view mt-4">
                   <div class="icon-wrapper">
                     <div class="icon-box">
-                      <img src="../assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
+                      <img src="assets/images/call_us.webp" width="66" height="61" alt="call us" class="img-fluid" decoding="async" loading="lazy">
                     </div>
                     <div class="contact-list">
                       <span class="contact-details">San Diego County:<!-- -->
@@ -479,12 +564,12 @@
           <div class="container">
             <div class="breadcrumbs5">
               <div class="home-group">
-                <a class="home7" href="../../index.html">Home</a>
-                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="../pages/fix-water-heater-leaking-issues/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
+                <a class="home7" href="index.html">Home</a>
+                <img class="chevron-right-double-icon3" loading="lazy" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" fetchpriority="high">
                 <a style="font-weight: normal" class="latest-news" href="blog.html">Blog</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/fix-water-heater-leaking-issues/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
                 <a style="font-weight: normal" class="latest-news" href="#">Heating Service</a>
-                <img class="chevron-right-double-icon4" alt="" src="../pages/fix-water-heater-leaking-issues/assets/blog/chevronrightdouble.svg" width="24" height="24" decoding="async">
+                <img class="chevron-right-double-icon4" alt="" src="assets/images/blog/chevronrightdouble.svg" width="24" height="24" decoding="async" loading="lazy">
               </div>
               <div class="why-do-slab-leaks-occur-mostly-wrapper">
                 <div class="why-do-slab">Water Heater Leaking? How To Fix It In 5 Easy Steps</div>
@@ -508,10 +593,10 @@
                   Views : <span>1200</span>
                 </div>
               </div>
-              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="Water Heater Leaking? How To Fix It In 5 Easy Steps" src="../pages/fix-water-heater-leaking-issues/assets/blog/fix-water-heater-leaking-issues.webp" width="708" height="333" decoding="async">
+              <img class="img-why-do-slab-leaks-occur-mo" loading="lazy" alt="Water Heater Leaking? How To Fix It In 5 Easy Steps" src="assets/images/blog/fix-water-heater-leaking-issues.webp" width="708" height="333" decoding="async">
               <div class="blog-contact">
                 <a href="tel:+17603927616" class="blog-num">(760) 392-7616</a>
-                <a class="blog-contact-btn" href="../../contact-us.html">Schedule An Appointment</a>
+                <a class="blog-contact-btn" href="contact-us.html">Schedule An Appointment</a>
               </div><div class="post-injected-content mt-4" style="color: #4a4a4a;">
 <div class="signs-of-a-slab-leak-parent"><div class="text50"><p>Do you have a faulty water heater at your home? If you are unnoticing the small issues in your water heater, you are making mistakes. Call the water heater repairers of EZ Heat and Air. The team of specialized experts offers commercial and residential services to the areas like Riverside, Orange County, and all. They offer multiple services at a reasonable cost with guaranteed satisfaction.</p><p>The emergency water heater leakage causes the biggest headache. If the water heater leaks are not repaired quickly, they can create another biggest mess. Nothing is worse than detecting a puddle of standing water around the water heater.</p><p>If you don't want to put much money on this, you should control the situation from the initial days. Fixing the water heater leaking or <strong>water heater maintenance</strong> is a daunting task, and to make it successful, a person needs to hire the professional. If the damaged water heater is not repaired quickly, it can bring multiple other issues.</p><p>In this blog, we are sharing how the water heater works, the common reasons for water heater leakage, and how to fix them with the help of professional touch. To prevent this scenario, you need to call a professional for <strong><a href="https://www.ezheatandair.com/san-diego-water-heater-repair-installation" title="water heater repair">water tank leak repair</a></strong>.</p><h2 class="blog_sandiego_title">How does a water heater work?</h2><p>To dive deeply into the consequences of a leaky water heater and <strong>water heater heating element replacement</strong>, you should understand what the water heater means and how it works. So, the cold water enters the tank through the inlet pipes, and then a dip tube brings the cold water down and takes it to the bottom of the tank. After this, the water will be heated.</p><p>The electric water heater comes with the 2 most important electrical elements, one on the top and the other on the bottom. Do you have the gas water heater? Different types of water heaters have different work conditions and signs of water leakage.</p><p>So, in the next section, we share the causes of water leakage in the water heater. If you face any of the causes in your scenario and want to <strong>fix water heater leak</strong>, the EZ Heat and Air team will be there!</p><h3 class="servi-title h-f-s-30">Causes of water heater leakage</h3><h4 class="servi-title h-f-s-24">Loose connection of pipe:</h4><p>if any connection of the pipe is loose and connected to the water heater or valve, it might be the reason for water heater leakage. Tighten up the fixture but if it is still not working, hire the repairing team and replace the <strong>hot water heater leaking from overflow pipe</strong>.</p><h4 class="servi-title h-f-s-24">Drain valve &amp; TP valve:</h4><p>The faulty T&amp; P valve with a bad drain valve also brings problems. If the drain valve is loose and broken, then the chances of water leakage will be higher. If the situation is ignored for a long time, the valve connection can break, and water could seep out in the worst conditions.</p><h4 class="servi-title h-f-s-24">High water pressure:</h4><p>If the temperature of your water heater is high, the T &amp; P valve will start releasing water. Along with that, over time, the minerals of the water become harsh. As the day goes b aynd the water heater system of your home gets older, it starts deteriorating. It causes cracks in the interior supply tank and increases the chances of bursting out the water.</p><h4 class="servi-title h-f-s-24">Crack in water heater:</h4><p>When you give constant pressure to the water heater, it can cause cracks. Over time, it can break the surface over time. Hard water also causes cracks in the tank; ultimately, you need to replace the <strong>hot water pipe leaking</strong> with the new one.</p><p>If you are a beginner, you might know the <strong><a href="https://marcothomas0009.wixsite.com/heatrepair1/post/water-heater-repair-top-4-reasons-your-water-heater-is-leaking" rel="noopener" target="_blank">causes of water leakage in your heater</a></strong>. But <strong>what to do when your water heater is leaking</strong>? As a novice, you might be panicked and confused about what to do next? So, as per the EZ Heat and Air process here, we share the best 5 easy steps to fix it up as soon as possible.</p><h2 class="blog_sandiego_title">The 5 easy steps to fix the water heater leakage</h2><h3 class="servi-title h-f-s-26">Verify the source of the leak:</h3><p>To fix the <strong>drain water heater sediment</strong> problem for a long time, you first have to verify the source of the problem. There are many sources of water leakage in your space, so make sure the water leaking out is from the water heater.</p><p>You should investigate whether the moisture is a leak or what? The water heater is hot, so you can try to detect this by wiping down and drying out the water heater. After that, take a close look at your water heater and look closely at its exterior. If you still feel that the moisture is developing on the surface, it is due to the water leakage.</p><h3 class="servi-title h-f-s-26">Shut off the power:</h3><p>You should shut off the power if you see a leak. Don't ever try to leave the water heater turned on. If you have an electric water heater, you should find the circuit breaker and flip the power off. If you have a gas water heater, you should shut off the valve from the tank.</p><h3 class="servi-title h-f-s-26">Shut the cold water supply:</h3><p>Now it's the time to move to the next step and turn off the cold water supply too. Stop the flow of cold water supply to the water heater. Mostly there are two pipes connected to your water heater on the top of the tank.</p><p>Most of the water heaters shut off the valve on the inlet pipe. The cold inlet pipe supplies the cold water to the tank, and the outlet pipe transports the hot water into your home. Mostly the different pipes are colored in different colors. If it's not in your case, then touch it to detect it.</p><h3 class="servi-title h-f-s-26">The source of the water tank:</h3><p>Once you shut off the power, it's time to find the source of leakage. The EZ Heat and Air team will visit and go through each water heater component. With their help, you can quickly troubleshoot the sediment in hot water heater problem and repair it.</p><p>Try to identify where the water build-up is and how to recover it. They will surely troubleshoot the problem as soon as possible. The water leakage can be produced through the top and bottom of the tank or even from the sides. So, be aware of these.</p><h3 class="servi-title h-f-s-26">Clean it &amp; call a water heater repairer:</h3><p>No matter where the leakage is initially, you can clean the area and call a water heater repaired. The buildup of <strong>sediment in water heaters</strong> can cause accidents and build molds. Clean it if you don't want to harm your valuable and structural damage as soon as possible. Call the <strong><a href="https://www.ezheatandair.com/los-angeles-water-heater-repair-installation" title="water heater repair">water heater repairer team of EZ Heat and Air</a></strong>. The professional and specialized team will be there.</p><p>By following the top 5 steps, you can eliminate any kind of water leakage and understands <strong>why does a hot water heater leak</strong>. But as a homeowner, you should also be aware of the tips on preventing water heater leakage. Do you want to reduce the stress of going through unwanted water leakage? If you are, you should follow some basic tips for repairing a water heater.</p><p>The best tip to prevent this condition is to maintain the water heat tank yearly. A yearly checkup of water heater repair can avoid expensive repairs. This is the best solution to deal with the inconvenience. We share a few tips to protect your water heater from these conditions.</p><h2 class="blog_sandiego_title">Things to do to prevent water heater leaks:</h2><h3 class="servi-title h-f-s-26">Thermostat test:</h3><p>Before making any changes to your water heater, check whether your water heater's thermostat is in the right condition. It should be functioning properly; otherwise gets affected.</p><h3 class="servi-title h-f-s-26">Consider the flue pipe:</h3><p>In case you have the gas water heater, the <strong>water heater repairer</strong> will come and determine the flue pipe. They will come and inspect for holes and cracks.</p><h3 class="servi-title h-f-s-26">Check T &amp; P valve:</h3><p>Certain safety features evaluate that T &amp; P valve should function properly. If you don't want to risk your family, you should ask the repairer to check these.</p><h3 class="servi-title h-f-s-26">Adjust the pipes:</h3><p>It is also required to connect the pipes and adjust them regularly. Regular maintenance is needed to ensure all the pipes are connected securely and tightly.</p><h3 class="servi-title h-f-s-26">Examine the drain valve:</h3><p>In the next step, you should regularly check the drain valve and rods. If necessary, you can make a replacement. The build-up of sediments also lowers the efficiency of the water heater. So, make sure you have cleaned it properly for a regular period.</p><p>Similarly, some more options help you keep away from these conditions.</p><p>When it comes to the traditional water heater system, it mostly stays for long hours. But currently, the most efficient water heater tank leak and mean serious damage. If you ignore the leak for a long time, it can impact your personal property. This blog discovered everything about the leaky water heater and the consequences, along with <strong>electric water heater coil replacement</strong>.</p></div></div>
 </div>
@@ -551,17 +636,17 @@
                 <div class="recent-posts">
                   <!-- Hardcoded recent posts -->
                   <div class="recent-post-item">
-                    <img src="../pages/fix-water-heater-leaking-issues/assets/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
+                    <img src="assets/images/blog/5-reasons-water-heater-not-working.webp" alt="Recent" decoding="async" width="785" height="369" loading="lazy">
                     <a href="5-reasons-your-water-heater-isnt-working-and-how-san-diego-experts-can-help.html">5 Reasons Your Water Heater Isn’t Working and How San
                       Diego Experts Can Help</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/fix-water-heater-leaking-issues/assets/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
+                    <img src="assets/images/blog/sd-climate-water-heater-performance.webp" alt="Recent" decoding="async" width="825" height="388" loading="lazy">
                     <a href="how-san-diego-climate-affects-water-heater-performance.html">How San Diego’s Climate Affects Water Heater
                       Performance</a>
                   </div>
                   <div class="recent-post-item">
-                    <img src="../pages/fix-water-heater-leaking-issues/assets/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
+                    <img src="assets/images/blog/hvac-repair-sd-tips.webp" alt="Recent" decoding="async" width="771" height="362" loading="lazy">
                     <a href="hvac-repair-in-san-diego-essential-tips-to-keep-your-system-running-smoothly.html">HVAC Repair in San Diego, CA: Essential Tips to Keep Your
                       System Running Smoothly</a>
                   </div>
@@ -577,22 +662,22 @@
             <div class="share-group">
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/fix-water-heater-leaking-issues/assets/facebook-share-icon.svg">
+                  <img alt="facebook" title="Share on Facebook" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/facebook-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/fix-water-heater-leaking-issues/assets/twitter-share-icon.svg">
+                  <img alt="twitter" title="Share on X" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/twitter-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/fix-water-heater-leaking-issues/assets/linkedin-share-icon.svg">
+                  <img alt="linkedin" title="Share on LinkedIn" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/linkedin-share-icon.svg">
                 </button>
               </span>
               <span class="icon-box">
                 <button class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
-                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../pages/fix-water-heater-leaking-issues/assets/email-share-icon.svg">
+                  <img alt="email" title="Share on Email" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="assets/images/email-share-icon.svg">
                 </button>
               </span>
             </div>
@@ -602,17 +687,17 @@
         <div class="container" style="margin-top: 40px; margin-bottom: 40px">
           <div class="blog-detail-page-inner px-0">
             <div class="frame-parent37">
-              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120">
+              <img class="group-icon" loading="lazy" alt="Michael Cabral" src="https://ezapi.ezplumbingusa.com/upload/media/angela-louise.png" width="120" height="120" decoding="async">
               <div class="frame-parent38">
                 <div class="frame-parent39">
                   <div class="frame-wrapper">
                     <div class="text-parent3" style="gap: 16px">
-                      <a href="../../michael-cabral.html" style="text-decoration: none; color: inherit">
+                      <a href="michael-cabral.html" style="text-decoration: none; color: inherit">
                         <div class="text94" style="color: #2c2e47">
                           Michael Cabral
                         </div>
                       </a>
-                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44">
+                      <img class="icon-email" alt="email" src="https://ezapi.ezplumbingusa.com/upload/media/icon-email.png" width="44" height="44" loading="lazy" decoding="async">
                     </div>
                   </div>
                   <div class="text95">Marketing Manager</div>
@@ -653,15 +738,15 @@
         <div class="col-12 brand-row">
           <div class="footer-brand-call">
             <div class="d-flex w-100">
-              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="../assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high"></a>
+              <a class="navbar-brand" href="/"><img alt="EZ Plumbing USA" src="assets/images/ez-brand-logo.svg" width="75" height="75" class="img-fluid" decoding="async" fetchpriority="high" loading="lazy"></a>
               <p class="toll_f_num">
-                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="../assets/images/green-icon-call.webp">
+                <span>Toll Free Number : </span><a href="tel:+18447557889" class="toll_free"><img alt="call green icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="img-fluid me-1" style="color: transparent" src="assets/images/green-icon-call.webp">
                   (844) 755-7889</a>
               </p>
             </div>
             <div class="footer-col info-col">
               <div class="social-links">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="../assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async"></a><a target="_blank" href="https://x.com/EZHeatAndAir"><img src="../assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="../assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="../assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61563780286402"><img src="assets/images/facebook.webp" width="10" height="21" alt="facebook" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://x.com/EZHeatAndAir"><img src="assets/images/twitter.webp" width="18" height="18" alt="twitter" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/104580298/admin/dashboard/"><img src="assets/images/linkedin.svg" width="19" height="24" alt="linkedin" decoding="async" loading="lazy"></a><a target="_blank" rel="noopener" href="https://www.instagram.com/ez._heatandair._/?hl=en"><img src="assets/images/instagram.webp" width="18" height="28" alt="instagram" decoding="async" loading="lazy"></a>
               </div>
             </div>
           </div>
@@ -688,7 +773,7 @@
         <div class="col-md-3 mt-auto">
           <div class="footer-col info-col">
             <div class="email_text">
-              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="../assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
+              Email :<a href="/cdn-cgi/l/email-protection#1b767a72776f7421687a777e685b7e61737e7a6f7a757f7a726935787476"><span class="__cf_email__" data-cfemail="9eedfff2fbeddefbe4f6fbffeafff0fafff7ecb0fdf1f3">[email&nbsp;protected]</span></a><a class="start-reating d-flex mt-2" href="#"><img src="assets/images/rating-footer.webp" width="124" height="20" alt="star" decoding="async" loading="lazy"></a>
             </div>
           </div>
         </div>
@@ -702,11 +787,11 @@
           <div class="copyright text-center text-md-start">
             © 10/12/2024 EZ Heat and Air , All Rights Reserved.<!-- -->
             <span class="d-block d-md-inline mt-1 mt-md-0">| Powered By :<!-- -->
-              <a target="_blank" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
+              <a target="_blank" rel="noopener" href="https://www.aistechnolabs.com/">AIS TECHNOLABS PVT LTD</a>.</span>
           </div>
         </div>
         <div class="col-12 col-md-2 col-lg-4 text-center text-md-end mt-2 pt-1 pt-md-0 mt-md-0">
-          <img alt="" src="../assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
+          <img alt="" src="assets/images/mca-protected.webp" width="121" height="24" decoding="async" loading="lazy">
         </div>
       </div>
     </div>
@@ -714,9 +799,9 @@
   <ul class="right-sidebar-btn ebook-modal">
     <li class="first-list">
       <a href="tel:+18447557889"><span class="content-sidebar call"><img alt="call" loading="lazy" width="15" height="16" decoding="async" data-nimg="1" class="img-fluid" style="color: transparent" srcset="
-              ../assets/images/phone-icons.webp 1x,
-              ../assets/images/phone-icons.webp 2x
-            " src="../assets/images/phone-icons.webp"></span></a>
+              assets/images/phone-icons.webp 1x,
+              assets/images/phone-icons.webp 2x
+            " src="assets/images/phone-icons.webp"></span></a>
     </li>
     <li class="second-list">
       <a data-bs-toggle="modal" href="#exampleModal"><span class="content-sidebar book-now">BOOK NOW</span></a>
@@ -748,10 +833,10 @@
 </footer>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script defer="" src="../shared/js/modules/header.js"></script>
-<script defer="" src="../shared/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer=""></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer=""></script>
+<script defer="" src="shared/js/modules/header.js"></script>
+<script defer="" src="shared/js/main.js"></script>
 
 
   

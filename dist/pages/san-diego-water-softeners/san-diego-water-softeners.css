@@ -1,0 +1,448 @@
+/* San Diego Water Softeners - Custom Styles */
+/* Based on gas-line-repair-replacement template */
+
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Slick Utilities */
+.serviceTemplate .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.serviceTemplate .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.serviceTemplate .slick-slide>div {
+    display: flex;
+    width: 100%;
+}
+
+.serviceTemplate .slick-dots {
+    margin-top: 30px !important;
+    position: static;
+}
+
+.serviceTemplate .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.serviceTemplate .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    background: #D9D9D9 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .slick-dots li button:before {
+    display: none;
+}
+
+.serviceTemplate .slick-dots li.slick-active button {
+    width: 40px;
+    background: #319A52 !important;
+    border-radius: 40px;
+}
+
+.serviceTemplate .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: 43.2px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.content-text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+
+/* Breadcrumbs */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+}
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb .about-us1 {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Hero / Banner */
+.serviceTemplate .banner {
+    padding: 60px 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.serviceTemplate .banner .row {
+    align-items: flex-start !important;
+}
+
+.serviceTemplate .immediate-slab-leak {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: 43.2px;
+    font-family: 'Inter', sans-serif;
+}
+
+.serviceTemplate .slab-leak-detection {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.serviceTemplate .slab-leak-detection p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.serviceTemplate .banner-contact-form {
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .contact-form {
+    max-width: 452px !important;
+    width: 100% !important;
+    padding: 20px !important;
+    margin-left: auto !important;
+}
+
+.serviceTemplate .form-wrapper {
+    padding: 60px 40px 30px 40px !important;
+    background: #fff !important;
+    border-radius: 8px !important;
+    max-width: 412px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.serviceTemplate .form-group {
+    margin-bottom: 18px !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .form-label {
+    display: block !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #2c3345 !important;
+    margin-bottom: 8px !important;
+}
+
+.serviceTemplate .form-control {
+    width: 100% !important;
+    height: 36px !important;
+    background-color: #fff !important;
+    border: 1px solid #acacac !important;
+    border-radius: 5px !important;
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    color: #2c3345 !important;
+}
+
+.serviceTemplate textarea.form-control {
+    height: 54px !important;
+    resize: none !important;
+}
+
+.serviceTemplate .input-wrapper {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .icon-email {
+    position: absolute !important;
+    left: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 16px !important;
+    height: 16px !important;
+    color: #8c8c8c !important;
+}
+
+.serviceTemplate .icon-email svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.serviceTemplate .input-wrapper input[type="email"] {
+    padding-left: 36px !important;
+}
+
+.serviceTemplate .btn-primary {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 45px !important;
+    background-color: #18bd5b !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    margin-top: 15px !important;
+}
+
+.serviceTemplate .btn-primary:hover {
+    background-color: #14a04d !important;
+}
+
+/* Service Cards */
+.serviceTemplate .gas-line-services {
+    padding: 60px 60px !important;
+}
+
+.serviceTemplate .service-box-wrapper {
+    padding: 0 12px;
+    display: flex;
+    width: 100%;
+}
+
+.serviceTemplate .service-box {
+    height: 100% !important;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 20px 40px 20px;
+}
+
+.serviceTemplate .service-box h3 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #2d2d2d !important;
+    line-height: 34px !important;
+    margin-bottom: 20px !important;
+}
+
+.serviceTemplate .service-box p {
+    font-size: 16px !important;
+    color: #6e6e6e !important;
+    line-height: 1.7 !important;
+}
+
+/* Info Section */
+.serviceTemplate section.gas-leak-info {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.serviceTemplate section.gas-leak-info img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+/* Promo Section */
+.serviceTemplate .promo-section {
+    background: #eefaf2;
+    padding: 60px 0;
+}
+
+.serviceTemplate .promo-section .icon-card {
+    background: #fff;
+    border-radius: 30px;
+    padding: 30px 23px;
+    height: 100%;
+}
+
+.serviceTemplate .icon-card h4 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.serviceTemplate .icon-card .card-sub-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* CTA Strip */
+.promo-strip {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2), rgba(49, 154, 82, 0.2));
+    padding: 60px 0;
+    text-align: center;
+}
+
+.promo-strip h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cta-phone-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Testimonials */
+.serviceTemplate .testimonials-section {
+    padding: 80px 0;
+}
+
+.serviceTemplate .testimonial-card {
+    border: none !important;
+    background: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px 0px !important;
+    border-radius: 20px !important;
+    padding: 50px 30px !important;
+}
+
+.serviceTemplate .testimonial-card .stars img {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+/* Why EZ */
+.why-ez-section {
+    padding: 80px 0;
+}
+
+.why-ez-section ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.why-ez-section ul li {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    list-style-type: disc;
+}
+
+/* FAQ */
+.serviceTemplate .faq-section {
+    padding: 0 0 60px !important;
+}
+
+.serviceTemplate .accordion-header button {
+    font-size: 18px !important;
+    font-weight: 500;
+    padding: 20px 20px 20px 80px !important;
+    background-color: transparent !important;
+}
+
+.serviceTemplate .accordion-button::before {
+    content: "" !important;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url("assets/plus.webp") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.serviceTemplate .accordion-button:not(.collapsed)::before {
+    background-image: url("assets/less.webp") !important;
+}
+
+.serviceTemplate .accordion-body {
+    padding: 0 20px 16px 82px !important;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .serviceTemplate .immediate-slab-leak {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .serviceTemplate .gas-line-services {
+        padding: 40px 20px !important;
+    }
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}
