@@ -1,0 +1,271 @@
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Breadcrumbs CSS */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+    margin-bottom: 0;
+}
+
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb span {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+}
+
+.contact-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px;
+}
+
+/* Contact Hero Section - Exact Parity */
+.contact-us-new {
+    font-family: 'Inter', sans-serif !important;
+    font-size: clamp(28px, 4vw, 36px);
+    font-weight: 600;
+    margin-bottom: clamp(30px, 4vw, 60px);
+    text-transform: capitalize;
+    color: #2D2D2D;
+    line-height: 1;
+}
+
+
+.frameContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    /* Adjusted gap for balanced 3-col layout */
+    flex-wrap: wrap;
+}
+
+.location1Parent,
+.mapsIconWrapper,
+.banner-contact-form {
+    flex: 1;
+    /* Each takes 33% */
+    min-width: 300px;
+    /* Prevent too skinny on mid-screens */
+}
+
+.location1Parent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* Reference matched gap between boxes */
+}
+
+.location1,
+.phoneNo1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.title-details .heading {
+    display: block;
+    font-size: 24px;
+    /* Precision matched */
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: #2D2D2D;
+    line-height: 1.1;
+}
+
+.title-details .text,
+.title-details .text1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+    line-height: 1.7;
+}
+
+.mapsIcon {
+    width: 100%;
+    /* Fill the 33% column */
+    /* Precision matched */
+    height: 542px;
+    /* Precision matched */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.banner-contact-form {
+    /* background: #EEFAF2; */
+    padding: 0;
+    border-radius: 8px;
+    height: 542px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 8px;
+}
+
+
+/* Insurance Section Styling Updates */
+.my-60 {
+    margin-top: clamp(35px, 5vw, 60px);
+}
+
+.mx-60 {
+    margin-bottom: clamp(35px, 5vw, 60px);
+}
+
+.mb-60 {
+    margin-bottom: clamp(35px, 5vw, 60px);
+}
+
+.title {
+    font-size: clamp(27px, 2.2vw, 36px);
+    font-weight: 600;
+    color: #2d2d2d;
+    margin: 0;
+}
+
+.insurance-logo {
+    box-shadow: 0 0 8.14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    /* Precision matched */
+    height: 130px;
+    /* Precision matched */
+    flex-shrink: 0;
+}
+
+.insurance-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 17px 24px;
+    /* Vertical / Horizontal gaps */
+}
+
+.insurance-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 991px) {
+    .frameParent {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .frameContainer {
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .banner-contact-form,
+    .mapsIcon {
+        width: 100% !important;
+        max-width: 500px;
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .container.insurance-container {
+        padding-right: 0;
+    }
+
+    .insurance-logo img {
+        min-height: 120px;
+        object-fit: scale-down;
+    }
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

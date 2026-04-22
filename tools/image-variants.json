@@ -1,0 +1,286 @@
+{
+  "shared/assets/product_images/cookie-policy-bg.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "cookie-policy-bg-360.webp",
+      "768": "cookie-policy-bg-768.webp",
+      "1280": "cookie-policy-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/crypto-igaming-solutions-og.webp": {
+    "sourceWidth": 1500,
+    "variants": {
+      "360": "crypto-igaming-solutions-og-360.webp",
+      "768": "crypto-igaming-solutions-og-768.webp",
+      "1280": "crypto-igaming-solutions-og-1280.webp"
+    }
+  },
+  "shared/assets/product_images/crypto-igaming-solutions.webp": {
+    "sourceWidth": 796,
+    "variants": {
+      "360": "crypto-igaming-solutions-360.webp",
+      "768": "crypto-igaming-solutions-768.webp"
+    }
+  },
+  "shared/assets/product_images/csgo-coinflip.webp": {
+    "sourceWidth": 1200,
+    "variants": {
+      "360": "csgo-coinflip-360.webp",
+      "768": "csgo-coinflip-768.webp"
+    }
+  },
+  "shared/assets/product_images/custom-igaming-software-development-service.webp": {
+    "sourceWidth": 1183,
+    "variants": {
+      "360": "custom-igaming-software-development-service-360.webp",
+      "768": "custom-igaming-software-development-service-768.webp"
+    }
+  },
+  "shared/assets/product_images/custom-igaming-software-development-services-og.webp": {
+    "sourceWidth": 1500,
+    "variants": {
+      "360": "custom-igaming-software-development-services-og-360.webp",
+      "768": "custom-igaming-software-development-services-og-768.webp",
+      "1280": "custom-igaming-software-development-services-og-1280.webp"
+    }
+  },
+  "shared/assets/product_images/fraud-warning-disclaimer-bg.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "fraud-warning-disclaimer-bg-360.webp",
+      "768": "fraud-warning-disclaimer-bg-768.webp",
+      "1280": "fraud-warning-disclaimer-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/igaming-services-bg.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "igaming-services-bg-360.webp",
+      "768": "igaming-services-bg-768.webp",
+      "1280": "igaming-services-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/legal-disclaimer-bg.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "legal-disclaimer-bg-360.webp",
+      "768": "legal-disclaimer-bg-768.webp",
+      "1280": "legal-disclaimer-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/ohs-gaming-cta-front.webp": {
+    "sourceWidth": 834,
+    "variants": {
+      "360": "ohs-gaming-cta-front-360.webp",
+      "768": "ohs-gaming-cta-front-768.webp"
+    }
+  },
+  "shared/assets/product_images/ohs-gaming-cta.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "ohs-gaming-cta-360.webp",
+      "768": "ohs-gaming-cta-768.webp",
+      "1280": "ohs-gaming-cta-1280.webp"
+    }
+  },
+  "shared/assets/product_images/online-sweepstakes-software-bg.webp": {
+    "sourceWidth": 1560,
+    "variants": {
+      "360": "online-sweepstakes-software-bg-360.webp",
+      "768": "online-sweepstakes-software-bg-768.webp",
+      "1280": "online-sweepstakes-software-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/privacy-policy.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "privacy-policy-360.webp",
+      "768": "privacy-policy-768.webp",
+      "1280": "privacy-policy-1280.webp"
+    }
+  },
+  "shared/assets/product_images/sportsbook-iframe-solutions-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "sportsbook-iframe-solutions-bg-360.webp",
+      "768": "sportsbook-iframe-solutions-bg-768.webp",
+      "1280": "sportsbook-iframe-solutions-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/sweepstake-casino-platform-bg.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "sweepstake-casino-platform-bg-360.webp",
+      "768": "sweepstake-casino-platform-bg-768.webp",
+      "1280": "sweepstake-casino-platform-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/turnkey-sports-betting-solution-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "turnkey-sports-betting-solution-bg-360.webp",
+      "768": "turnkey-sports-betting-solution-bg-768.webp",
+      "1280": "turnkey-sports-betting-solution-bg-1280.webp"
+    }
+  },
+  "shared/assets/product_images/white-label-igaming-platform-casino-sportsbook-solutions-og.webp": {
+    "sourceWidth": 1500,
+    "variants": {
+      "360": "white-label-igaming-platform-casino-sportsbook-solutions-og-360.webp",
+      "768": "white-label-igaming-platform-casino-sportsbook-solutions-og-768.webp",
+      "1280": "white-label-igaming-platform-casino-sportsbook-solutions-og-1280.webp"
+    }
+  },
+  "shared/assets/product_images/whitelabel-igaming-platform.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "whitelabel-igaming-platform-360.webp",
+      "768": "whitelabel-igaming-platform-768.webp",
+      "1280": "whitelabel-igaming-platform-1280.webp"
+    }
+  },
+  "shared/assets/images/about-us/linear-bg.webp": {
+    "sourceWidth": 1325,
+    "variants": {
+      "360": "linear-bg-360.webp",
+      "768": "linear-bg-768.webp",
+      "1280": "linear-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/bannerImages/osh-bg.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "osh-bg-360.webp",
+      "768": "osh-bg-768.webp",
+      "1280": "osh-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/call-to-action/free-consultation-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "free-consultation-bg-360.webp",
+      "768": "free-consultation-bg-768.webp",
+      "1280": "free-consultation-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/common-img/about-us-bg.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "about-us-bg-360.webp",
+      "768": "about-us-bg-768.webp",
+      "1280": "about-us-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/common-img/leadership-banner.webp": {
+    "sourceWidth": 1920,
+    "variants": {
+      "360": "leadership-banner-360.webp",
+      "768": "leadership-banner-768.webp",
+      "1280": "leadership-banner-1280.webp"
+    }
+  },
+  "shared/assets/images/franchise/our-services-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "our-services-bg-360.webp",
+      "768": "our-services-bg-768.webp",
+      "1280": "our-services-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/gaming-solution/gaming-desktop-banner.webp": {
+    "sourceWidth": 2160,
+    "variants": {
+      "360": "gaming-desktop-banner-360.webp",
+      "768": "gaming-desktop-banner-768.webp",
+      "1280": "gaming-desktop-banner-1280.webp",
+      "1920": "gaming-desktop-banner-1920.webp"
+    }
+  },
+  "shared/assets/images/igaming/how-we-desgn-bg-tab.webp": {
+    "sourceWidth": 885,
+    "variants": {
+      "360": "how-we-desgn-bg-tab-360.webp",
+      "768": "how-we-desgn-bg-tab-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/how-we-desgn-bg.webp": {
+    "sourceWidth": 1245,
+    "variants": {
+      "360": "how-we-desgn-bg-360.webp",
+      "768": "how-we-desgn-bg-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/igaming-banner-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "igaming-banner-bg-360.webp",
+      "768": "igaming-banner-bg-768.webp",
+      "1280": "igaming-banner-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/igaming/mobile-app.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "mobile-app-360.webp",
+      "768": "mobile-app-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/multi-device-igaming-bg.webp": {
+    "sourceWidth": 1252,
+    "variants": {
+      "360": "multi-device-igaming-bg-360.webp",
+      "768": "multi-device-igaming-bg-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/retail-solution.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "retail-solution-360.webp",
+      "768": "retail-solution-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/self-service.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "self-service-360.webp",
+      "768": "self-service-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/trust-source-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "trust-source-bg-360.webp",
+      "768": "trust-source-bg-768.webp",
+      "1280": "trust-source-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/igaming/turnkey.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "turnkey-360.webp",
+      "768": "turnkey-768.webp"
+    }
+  },
+  "shared/assets/images/igaming/white-label.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "white-label-360.webp",
+      "768": "white-label-768.webp"
+    }
+  },
+  "shared/assets/images/new-home/inustry-bg.webp": {
+    "sourceWidth": 1440,
+    "variants": {
+      "360": "inustry-bg-360.webp",
+      "768": "inustry-bg-768.webp",
+      "1280": "inustry-bg-1280.webp"
+    }
+  },
+  "shared/assets/images/new-home/tech-brilience-bg.webp": {
+    "sourceWidth": 1240,
+    "variants": {
+      "360": "tech-brilience-bg-360.webp",
+      "768": "tech-brilience-bg-768.webp"
+    }
+  }
+}

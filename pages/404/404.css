@@ -1,0 +1,182 @@
+/* pages/404/404.css */
+
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Breadcrumbs CSS (Synced with Sitemap) */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 60px;
+    margin-bottom: 0px;
+}
+
+.serviceTemplate .breadcrumbs a,
+.serviceTemplate .breadcrumbs span {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif !important;
+    text-decoration: none;
+}
+
+.serviceTemplate .breadcrumbs a {
+    color: #444;
+}
+
+.serviceTemplate .breadcrumbs .separator {
+    color: #319a52;
+    font-weight: 700;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.serviceTemplate .breadcrumbs span {
+    color: #319a52;
+    font-weight: 500;
+}
+
+/* Main Container */
+.sitemap-container {
+    padding: 60px 15px;
+    width: 100%;
+}
+
+/* Error Hero */
+.error-code {
+    font-size: clamp(100px, 15vw, 180px);
+    font-weight: 700;
+    color: #319a52;
+    margin-bottom: 0;
+    line-height: 1;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-subtitle {
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.error-text {
+    font-size: 18px;
+    color: #6e6e6e;
+}
+
+.btn-return-home {
+    display: inline-block;
+    background-color: #319a52;
+    color: #fff !important;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-return-home:hover {
+    background-color: #267a41;
+}
+
+/* Suggestions Grid */
+.suggestions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 40px;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.suggestions-grid li {
+    display: flex;
+    align-items: center;
+}
+
+.suggestions-grid li a {
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.suggestions-grid li a:hover {
+    color: #319a52;
+}
+
+/* Circle Icon (Synced with Sitemap) */
+.circle-img {
+    width: 6px;
+    height: 6px;
+    background-color: #319a52;
+    border-radius: 50%;
+    outline: 1px solid #319a52;
+    outline-offset: 3px;
+    margin-right: 25px;
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+
+/* Mini Blog Cards */
+.blog-card-mini {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.blog-card-mini:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.blog-card-mini img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.blog-card-mini h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.blog-card-mini h5 a {
+    color: #2c2e47;
+    text-decoration: none;
+}
+
+.blog-card-mini h5 a:hover {
+    color: #319a52;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .suggestions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .serviceTemplate .breadcrumbs {
+        padding: 16px 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .suggestions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .serviceTemplate .breadcrumbs {
+        padding: 16px 20px;
+    }
+
+    .sitemap-container {
+        padding: 40px 15px;
+    }
+}

@@ -1,0 +1,41 @@
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Request a Free Quote</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="quoteForm" novalidate>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Full Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+          </div>
+          <div class="mb-3">
+            <select class="form-select" name="service" required>
+              <option value="" disabled selected>Select a Service</option>
+              <option value="emergency">Emergency Plumbing</option>
+              <option value="drain">Drain Cleaning</option>
+              <option value="water-heater">Water Heater Repair</option>
+              <option value="pipe">Pipe Repair</option>
+              <option value="bathroom">Bathroom Remodeling</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" rows="3" placeholder="Describe your issue..."></textarea>
+          </div>
+          <!-- Honeypot -->
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+          <button type="submit" class="btn btn-primary w-100 btn-cta">Get Free Quote</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

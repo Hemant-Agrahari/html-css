@@ -1,0 +1,525 @@
+/* Water Heater Custom Styles */
+
+/* ==========================================================================
+   1. General Styles & Slick Utilities
+   ========================================================================== */
+.serviceTemplate {
+    width: 100%;
+    color: #2D2D2D;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Slick Utility Styles */
+.serviceTemplate .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.serviceTemplate .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.serviceTemplate .slick-slide>div {
+    display: flex;
+    width: 100%;
+}
+
+/* Global Slick Dots customization */
+.serviceTemplate .slick-dots {
+    margin-top: 30px !important;
+    position: static;
+}
+
+.serviceTemplate .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.serviceTemplate .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    background: #D9D9D9 !important;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .slick-dots li button:before {
+    display: none;
+}
+
+.serviceTemplate .slick-dots li.slick-active button {
+    width: 40px;
+    background: #319A52 !important;
+    border-radius: 40px;
+}
+
+/* Utility section title */
+.serviceTemplate .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    line-height: 43.2px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.content-text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   2. Breadcrumbs CSS
+   ========================================================================== */
+.serviceTemplate .breadcrumbs {
+    background-color: #ebebeb;
+    padding: 16px 0;
+}
+
+.serviceTemplate .home-breadcrumb a {
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.serviceTemplate .home-breadcrumb span,
+.serviceTemplate .home-breadcrumb .about-us1 {
+    color: #309D58;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+}
+
+/* ==========================================================================
+   3. Hero Section CSS
+   ========================================================================== */
+.serviceTemplate .banner {
+    padding: 60px 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+/* Banner row: content starts from top, not vertically centered */
+.serviceTemplate .banner .row {
+    align-items: flex-start !important;
+}
+
+.serviceTemplate .immediate-slab-leak-detection {
+    max-width: 784px;
+}
+
+.serviceTemplate .immediate-slab-leak {
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D2D2D;
+    margin-bottom: 0px;
+    line-height: 43.2px;
+    font-family: 'Inter', sans-serif;
+}
+
+.serviceTemplate .slab-leak-detection {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.serviceTemplate .slab-leak-detection p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+.serviceTemplate .slab-leak-detection p:last-child {
+    margin-bottom: 0;
+}
+
+/* Hero Contact Form */
+.serviceTemplate .banner-contact-form {
+    border-radius: 12px !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .contact-form {
+    max-width: 452px !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+
+.serviceTemplate .form-wrapper {
+    padding: 60px 40px 30px 40px !important;
+    background: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    max-width: 412px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.serviceTemplate .form-group {
+    margin-bottom: 18px !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .form-label {
+    display: block !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #2c3345 !important;
+    margin-bottom: 8px !important;
+    line-height: 25.2px !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate .form-control {
+    width: 100% !important;
+    height: 36px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #acacac !important;
+    border-radius: 5px !important;
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: #2c3345 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate textarea.form-control {
+    height: 54px !important;
+    resize: none !important;
+}
+
+.serviceTemplate .input-wrapper {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.serviceTemplate .icon-email {
+    position: absolute !important;
+    left: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 16px !important;
+    height: 16px !important;
+    color: #8c8c8c !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.serviceTemplate .icon-email svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.serviceTemplate .input-wrapper input[type="email"] {
+    padding-left: 36px !important;
+}
+
+.serviceTemplate .btn-primary {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 45px !important;
+    background-color: #18bd5b !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 0 50px !important;
+    line-height: 25.2px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    margin-top: 15px !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.serviceTemplate .btn-primary:hover {
+    background-color: #14a04d !important;
+}
+
+/* ==========================================================================
+   4. Service Cards CSS
+   ========================================================================== */
+.serviceTemplate .gas-line-services {
+    padding: 60px 60px !important;
+}
+
+.serviceTemplate .service-box-wrapper {
+    padding: 0 12px;
+    display: flex;
+    width: 100%;
+}
+
+.serviceTemplate .service-box {
+    height: 100% !important;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 20px 40px 20px;
+    display: block !important;
+    transition: all 0.3s ease;
+}
+
+.serviceTemplate .service-box h3 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #2d2d2d !important;
+    line-height: 34px !important;
+    margin-bottom: 20px !important;
+}
+
+.serviceTemplate .service-box p {
+    font-size: 16px !important;
+    color: #6e6e6e !important;
+    line-height: 1.7 !important;
+    margin-bottom: 20px !important;
+}
+
+/* ==========================================================================
+   5. Info Section CSS
+   ========================================================================== */
+.serviceTemplate section.gas-leak-info {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+.serviceTemplate section.gas-leak-info img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   6. Promo Section CSS
+   ========================================================================== */
+.serviceTemplate .promo-section {
+    background: #eefaf2;
+    padding: 60px 0;
+}
+
+.serviceTemplate .promo-section .icon-card {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 30px 23px;
+    height: 100%;
+}
+
+.serviceTemplate .icon-card h4 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.serviceTemplate .icon-card .card-sub-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* ==========================================================================
+   7. CTA Banner CSS
+   ========================================================================== */
+.promo-strip {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2), rgba(49, 154, 82, 0.2));
+    padding: 60px 0;
+}
+
+.promo-strip h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cta-phone-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+/* ==========================================================================
+   8. Testimonials CSS
+   ========================================================================== */
+.serviceTemplate .testimonials-section {
+    padding: 80px 0;
+}
+
+.serviceTemplate .testimonial-card {
+    border: none !important;
+    background: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 8px 0px !important;
+    border-radius: 20px !important;
+    padding: 50px 30px !important;
+}
+
+.serviceTemplate .testimonial-card .stars img {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+/* ==========================================================================
+   9. Why EZ Section CSS
+   ========================================================================== */
+.why-ez-section {
+    padding: 80px 0;
+}
+
+.why-ez-section ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.why-ez-section ul li {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    list-style-type: disc;
+}
+
+/* ==========================================================================
+   10. FAQ Section CSS
+   ========================================================================== */
+.serviceTemplate .faq-section {
+    padding: 0 0 60px !important;
+}
+
+.serviceTemplate .accordion-item {
+    border: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+}
+
+.serviceTemplate .accordion-header button {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #2D2D2D !important;
+    line-height: 1.2 !important;
+    padding: 20px 20px 20px 80px !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.serviceTemplate .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.serviceTemplate .accordion-button::after {
+    display: none !important;
+}
+
+.serviceTemplate .accordion-button::before {
+    content: "" !important;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url("assets/plus.webp") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.serviceTemplate .accordion-button:not(.collapsed)::before {
+    background-image: url("assets/less.webp") !important;
+}
+
+.serviceTemplate .accordion-body {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #6E6E6E !important;
+    padding: 0 20px 16px 82px !important;
+    margin: 0 !important;
+    line-height: normal !important;
+}
+
+/* ==========================================================================
+   11. Responsive Adjustments
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    .serviceTemplate .immediate-slab-leak {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

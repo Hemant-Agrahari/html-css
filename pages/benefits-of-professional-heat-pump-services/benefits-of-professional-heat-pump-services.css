@@ -1,0 +1,563 @@
+/* ==========================================
+   Blog Detail Page - Exact Reference Styles
+   Values extracted from ezheatandair.com CSS
+   ========================================== */
+
+/* Remove any default gap between header and content */
+.page-header,
+.navbar {
+    padding-bottom: 0px !important;
+    margin-bottom: 0 !important;
+}
+
+.blog-detail-page {
+    margin-top: 39px !important;
+    padding-top: 0 !important;
+}
+
+/* Breadcrumbs - exact ref: background #ebebeb, padding 16px 60px, font-size 16px */
+.breadcrumbs4 {
+    align-self: stretch;
+    background-color: #ebebeb;
+    padding: 16px 60px;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.breadcrumbs5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.home-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.home-group a {
+    text-decoration: none;
+    position: relative;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: inherit;
+    font-size: 16px;
+}
+
+.why-do-slab-leaks-occur-mostly-wrapper {
+    color: #319a52;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+/* Current page crumb - font-weight:600 */
+.why-do-slab {
+    position: relative;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* =====================
+   Main Layout
+   ===================== */
+
+/* frame-main: ref padding 60px, flex-direction row, gap 24px */
+.frame-main {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px;
+    gap: 24px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Article column - ref: flex:1, min-width:75%, gap:40px */
+.why-do-slab-leaks-occur-mostly-parent {
+    flex: 1 1;
+    gap: 40px;
+    min-width: 75%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Title wrapper */
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+/* H1 - ref: font-size 36px, font-weight:600, color:#3ab54b, line-height 1.2 */
+.why-do-slab1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: 36px;
+    font-weight: 600;
+    color: #3ab54b;
+    font-family: inherit;
+    line-height: 1.2;
+    width: calc(100% - 50px);
+}
+
+/* Publish date / views line */
+.h-0 {
+    font-size: 16px !important;
+    color: #333 !important;
+    margin-bottom: 24px;
+    line-height: 26px !important;
+    font-weight: 400 !important;
+}
+
+/* Hero image - ref: height 511px, border-radius 16px (var(--br-base)), object-fit cover */
+.img-why-do-slab-leaks-occur-mo {
+    align-self: stretch;
+    height: 511px;
+    position: relative;
+    border-radius: 16px;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+/* Blog contact bar - ref: display flex, gap clamp, align-items center */
+.blog-contact {
+    display: flex;
+    gap: clamp(12px, 2.1vw, 28px);
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Phone number - ref: font-size clamp(16px,3.1vw,36px), font-weight:500, color:#3bb44d */
+.blog-num {
+    font-size: clamp(16px, 3.1vw, 36px);
+    font-weight: 500;
+    color: #3bb44d !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-num:hover {
+    color: #0056b3 !important;
+}
+
+/* Schedule button - ref: padding-block clamp(12px,3.1vw,20px), background:#319a52, border-radius 8px */
+.blog-contact-btn {
+    padding-block: clamp(12px, 3.1vw, 20px);
+    padding-inline: clamp(18px, 3.1vw, 28px);
+    background-color: #319a52;
+    color: #fff !important;
+    border-radius: 8px;
+    font-size: clamp(13px, 2.1vw, 18px);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.blog-contact-btn:hover {
+    color: #fff !important;
+    background-color: #278042;
+}
+
+/* =====================
+   Article Body Text
+   ===================== */
+
+/* Section group container */
+.signs-of-a-slab-leak-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+/* Section headings (h2) - ref: font-size 28px, font-weight:600, color:#2d2d2d */
+.signs-of-a {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: inherit;
+    color: #2d2d2d;
+    align-self: stretch;
+    position: relative;
+}
+
+/* Body paragraph - ref: font-size 16px, line-height 140%, color:#6e6e6e */
+.text50 {
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul {
+    padding-left: 0 !important;
+    margin-block: 8px;
+}
+
+.text50 ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.8;
+    padding-left: 23px;
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+.text50 ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}
+
+/* H3 headings in content */
+.text50 h3,
+.signs-of-a-slab-leak-parent h3 {
+    font-size: clamp(18px, 3.1vw, 20px);
+    margin-top: clamp(8px, 3.1vw, 16px);
+    margin-bottom: 8px;
+    line-height: normal;
+    font-weight: 600;
+    color: #333;
+}
+
+/* =====================
+   Right Sidebar
+   ===================== */
+
+/* Sidebar container - ref: width 412px, flex-direction column, row-gap 16px */
+.frame-parent32 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+/* Category box - ref: box-shadow 0 1px 8px, border-radius 16px, padding 24px, gap 8px */
+.text-group {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    align-self: stretch;
+}
+
+/* Sidebar widget headings - ref: font-size 24px, line-height 28px, font-weight 500, color #000 */
+.text83,
+.text92 {
+    margin: 0;
+    position: relative;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    color: #000;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #a5a5a5;
+    margin-bottom: 8px;
+}
+
+/* Category tags grid - ref: gap 12px 14px, flex-wrap, color var(--primary) */
+.categorys-col .frame-parent33 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 12px 14px;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 2px;
+}
+
+/* Tag pills - exact ref: transparent bg, border 1px solid #3bb44d, padding 6px 11px, border-radius 8px, font-size 18px */
+.text-wrapper {
+    cursor: pointer;
+    border: 1px solid #3bb44d;
+    padding: 6px 11px;
+    background-color: transparent;
+    border-radius: 8px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #3bb44d;
+    transition: all 0.3s;
+}
+
+.text-wrapper:hover {
+    background-color: rgba(33, 156, 51, 0.09);
+    border-color: #219c33;
+}
+
+.text84 {
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3bb44d;
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* Recent posts box - ref: box-shadow, border-radius 16px, padding 16px, gap 15.9px */
+.text-parent1 {
+    align-self: stretch;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+    position: relative;
+    gap: 15.9px;
+    font-size: 16px;
+    color: #2c2e47;
+}
+
+/* Scrollable recent posts - ref: max-height 404px, display grid, gap 16px */
+.recent-posts {
+    max-height: 404px;
+    overflow-y: auto;
+    display: grid;
+    gap: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.recent-posts::-webkit-scrollbar {
+    background: #3bb44d;
+    width: 4px;
+    border-radius: 16px;
+}
+
+.recent-posts::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.recent-posts::-webkit-scrollbar-thumb {
+    background: #3bb44d;
+    width: 4px;
+}
+
+/* Recent post row */
+.recent-post-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+/* Recent post thumb - ref: height 54px, width 96px, border-radius 8px */
+.recent-post-item img {
+    height: 54px;
+    width: 96px;
+    min-width: 96px;
+    position: relative;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Recent post link - ref: font-size 14px, line-height 18px, font-weight 500, color #2c2e47 */
+.recent-post-item a {
+    flex: 1 1;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #2c2e47;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+
+.recent-post-item a:hover {
+    color: #3bb44d !important;
+}
+
+/* =====================
+   Responsive Breakpoints
+   ===================== */
+
+@media (min-width: 1200px) {
+    .frame-main {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .frame-parent32 {
+        width: 412px;
+        min-width: 412px;
+        margin-top: 0;
+        position: sticky;
+        top: 100px;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 1050px) {
+    .why-do-slab1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 750px) {
+    .breadcrumbs4 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .frame-main {
+        padding: 25px 30px;
+    }
+
+    .img-why-do-slab-leaks-occur-mo {
+        height: auto;
+    }
+
+    .why-do-slab-leaks-occur-mostly-parent {
+        min-width: 100%;
+    }
+
+    .frame-parent32 {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .why-do-slab1 {
+        font-size: 22px;
+    }
+
+    .frame-main {
+        padding: 20px 16px;
+    }
+}
+
+/* =====================
+   Article Body Text (Auto-Sync)
+   ===================== */
+.text50 {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6e6e6e;
+    align-self: stretch;
+    position: relative;
+}
+
+.text50 ul.custm-ul {
+    padding-left: 0 !important;
+    margin-block: 16px;
+    list-style: none !important;
+}
+
+.text50 ul.custm-ul li {
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+
+.text50 ul.custm-ul li::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #3ab54b;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 9px;
+}
+
+.text50 h2.blog_sandiego_title,
+.text50 h1, .text50 h2, .text50 h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: #2c2e47;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text50 p {
+    margin-bottom: 16px;
+}
+
+.text50 a {
+    color: #3bb44d;
+    text-decoration: none;
+}
+
+.text50 a:hover {
+    text-decoration: underline;
+}

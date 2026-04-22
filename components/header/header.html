@@ -1,0 +1,81 @@
+<!-- components/header/header.html -->
+<header class="main-header sticky-header">
+  <!-- Top Bar -->
+  <div class="header-top">
+    <div class="container flex justify-between align-center">
+      <div class="top-info flex align-center gap-md">
+        <div class="status-msg">
+          IT'S <span id="current-day">WEDNESDAY</span>,
+          <span id="current-time">4:27 PM</span> AND
+          <span class="text-green">WE'RE OPEN</span>
+        </div>
+        <div class="toll-free">
+          TOLL FREE NUMBER:
+          <a href="tel:8447557889" class="text-green font-bold"
+            >(844) 755-7889</a
+          >
+        </div>
+      </div>
+      <div class="location-numbers flex gap-md">
+        <div class="loc-item">
+          San Diego County:
+          <a href="tel:7603927616" class="text-green">(760) 392-7616</a>
+        </div>
+        <div class="loc-item">
+          Orange County:
+          <a href="tel:9496944902" class="text-green">(949) 694-4902</a>
+        </div>
+        <div class="loc-item">
+          Riverside County:
+          <a href="tel:9517202195" class="text-green">(951) 720-2195</a>
+        </div>
+      </div>
+      <div class="emergency-badge">
+        <img
+          src="../../assets/images/emergency-badge.webp"
+          alt="24/7 Emergency Service"
+          width="80"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Nav -->
+  <nav class="header-nav">
+    <div class="container flex justify-between align-center">
+      <div class="logo">
+        <a href="/">
+          <img
+            src="../../assets/images/logo.svg"
+            alt="EZ Heat and Air Logo"
+            width="180"
+          />
+        </a>
+      </div>
+
+      <ul class="nav-menu flex gap-md" id="nav-menu">
+        <li><a href="/">HOME</a></li>
+        <li class="has-dropdown">
+          <a href="#">COMPANY</a>
+          <ul class="dropdown">
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li><a href="/services">SERVICES</a></li>
+        <li><a href="contact-us.html">CONTACT US</a></li>
+        <li><a href="tel:7603927616" class="btn btn-primary">CALL NOW</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<script src="../../components/header/header.js"></script>
+<link rel="stylesheet" href="../../components/header/header.css" />

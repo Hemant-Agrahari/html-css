@@ -1,0 +1,342 @@
+body {
+    font-family: "Outfit", sans-serif !important;
+}
+
+.page-header {
+    font-family: "Inter", sans-serif !important;
+}
+
+/* ============================================================
+   TOP HEADER — Fluid scaling to match reference site
+   Reference: clamp(10px, 1.3vw, 20px)
+   ============================================================ */
+
+.head_time p {
+    font-weight: 600 !important;
+    font-size: clamp(10px, 1.3vw, 20px) !important;
+    color: #000000 !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+.head_time p span.day,
+.head_time p span.text-green {
+    font-size: clamp(10px, 1.3vw, 20px) !important;
+    font-weight: 600 !important;
+    color: #319A52 !important;
+}
+
+.toll-free-no {
+    font-size: clamp(10px, 1.3vw, 20px) !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+.toll-free-no span a {
+    font-size: clamp(10px, 1.3vw, 20px) !important;
+    font-weight: 600 !important;
+    color: #319A52 !important;
+}
+
+/* ============================================================
+   EMERGENCY SERVICE — Hide below 768px, fluid text
+   ============================================================ */
+
+.emergency-service p span {
+    font-size: clamp(10px, 1vw, 14px) !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+.emergency-service p a {
+    font-size: clamp(10px, 1vw, 14px) !important;
+    font-weight: 600 !important;
+    color: #319A52 !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+/* Hide emergency contact section at mobile (<768px) 
+   NOTE: .head_time remains visible to match reference site 
+*/
+@media (max-width: 767px) {
+    .header-service {
+        display: none !important;
+    }
+
+    /* Reference site keeps the status/toll-free visible even at small widths */
+    .head_time {
+        display: block !important;
+        flex: 0 1 auto !important;
+        /* Don't grow, let space-between center it */
+        text-align: center !important;
+        line-height: 1.2 !important;
+        margin: 0 auto !important;
+        /* Help centering if needed */
+    }
+
+    .head_time p {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* Logo swap for mobile space saving */
+    .brand-logo {
+        display: none !important;
+    }
+
+    .brand-logo-s {
+        display: block !important;
+        max-width: 42px !important;
+    }
+}
+
+/* ============================================================
+   MAIN NAVIGATION — Desktop (≥992px)
+   Reference: clamp(13px, 1vw, 16px) font, clamp(10px, 1vw, 20px) padding
+   ============================================================ */
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: clamp(13px, 1vw, 16px) !important;
+        font-weight: 400 !important;
+        color: #000000 !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        padding-left: clamp(10px, 1vw, 19.2px) !important;
+        padding-right: clamp(10px, 1vw, 19.2px) !important;
+        text-transform: uppercase !important;
+        font-family: "Inter", sans-serif !important;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #319A52 !important;
+    }
+
+    /* Vertical dividers */
+    #offcanvasNavbar .navbar-nav .nav-link {
+        border-right: 1px solid #a5a5a5 !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-item:last-child .nav-link {
+        border-right: 0 !important;
+    }
+}
+
+/* ============================================================
+   DESKTOP DROPDOWN MENUS
+   ============================================================ */
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        padding: 8px 0 !important;
+        border: 1px solid rgba(0, 0, 0, 0.176) !important;
+        border-radius: 6px !important;
+        background-color: #fff !important;
+        margin-top: 2px !important;
+        box-shadow: none !important;
+        min-width: 160px !important;
+    }
+
+    .dropdown-item {
+        padding: 4px 16px !important;
+        font-size: 16px !important;
+        color: #212529 !important;
+        font-weight: 400 !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa !important;
+        color: #319a52 !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-item .dropdown-menu.show {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 1050 !important;
+    }
+
+    /* Click-to-open dropdowns — disable any hover-show from external CSS */
+    #offcanvasNavbar .navbar-nav .nav-item.dropdown:hover>.dropdown-menu {
+        display: none !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-item.dropdown.show>.dropdown-menu {
+        display: block !important;
+    }
+
+    .dropdown {
+        position: relative !important;
+    }
+}
+
+/* ============================================================
+   MOBILE OFFCANVAS (≤991px)
+   ============================================================ */
+
+@media (max-width: 991.98px) {
+    .offcanvas {
+        z-index: 1060 !important;
+        background-color: #fff !important;
+        width: 400px !important;
+        max-width: 100% !important;
+        transition: transform 0.3s ease-in-out !important;
+        box-shadow: none !important;
+    }
+
+    .offcanvas-backdrop {
+        z-index: 1050 !important;
+        background-color: #000 !important;
+        opacity: 0.5 !important;
+    }
+
+    .offcanvas-header {
+        border-bottom: 1px solid #a5a5a5 !important;
+        padding: 16px !important;
+        background-color: #fff !important;
+    }
+
+    .offcanvas-title {
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        color: #000 !important;
+        font-family: "Inter", sans-serif !important;
+        text-transform: none !important;
+    }
+
+    .offcanvas-body {
+        padding: 0 16px 16px 16px !important;
+        background-color: #fff !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-item {
+        border-bottom: 1px solid #a5a5a5 !important;
+        background-color: #fff !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-item:last-child {
+        border-bottom: 0 !important;
+    }
+
+    #offcanvasNavbar .navbar-nav .nav-link {
+        background-color: #fff !important;
+        color: #000 !important;
+        font-weight: 400 !important;
+        font-size: 13px !important;
+        padding: 10px 10px 10px 0 !important;
+        text-transform: uppercase !important;
+        transition:
+            color 0.15s ease-in-out,
+            background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out !important;
+    }
+
+    /* Mobile Sublink Styles */
+    .offcanvas-body .dropdown-item {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        padding: 10px 10px 10px 16px !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        transition:
+            color 0.15s ease-in-out,
+            background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out !important;
+    }
+
+    /* Mobile dropdown toggle arrow */
+    .offcanvas-body .dropdown-toggle:after {
+        content: "" !important;
+        border-top: 3.5px solid #000 !important;
+        border-left: 3.5px solid transparent !important;
+        border-right: 3.5px solid transparent !important;
+        margin-left: 5px !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        transition: transform 0.3s !important;
+        width: 0 !important;
+        height: 0 !important;
+        border-bottom: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .offcanvas-body .dropdown-toggle:not(.collapsed):after {
+        transform: rotate(180deg) !important;
+    }
+
+    /* Mobile Dropdown Menu Styling */
+    .offcanvas-body .collapse ul {
+        border: 1px solid rgba(0, 0, 0, 0.176) !important;
+        border-radius: 6px !important;
+        background-color: #fff !important;
+        padding: 8px 0 !important;
+        margin: 10px 15px !important;
+    }
+
+    .offcanvas-body .collapse ul .dropdown-item {
+        padding: 4px 16px !important;
+        font-size: 16px !important;
+        color: #212529 !important;
+        border-bottom: none !important;
+    }
+
+    /* Close button */
+    .btn-close {
+        z-index: 1100 !important;
+        opacity: 1 !important;
+    }
+
+    /* Mobile Contact Section */
+    .mob-view {
+        padding: 16px 0 !important;
+        background: #fbfbfb !important;
+        border-bottom: none !important;
+        margin-top: 0 !important;
+    }
+
+    .mob-view .icon-wrapper {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .mob-view .icon-box img {
+        width: 40px !important;
+        height: auto !important;
+    }
+
+    .mob-view .contact-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .mob-view .contact-details {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #000 !important;
+        font-family: "Inter", sans-serif !important;
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        line-height: 20px !important;
+    }
+
+    .mob-view .contact-details a {
+        color: #319a52 !important;
+        text-decoration: none;
+        font-weight: 600 !important;
+        font-family: "Inter", sans-serif !important;
+    }
+
+    .offcanvas.showing,
+    .offcanvas.show {
+        transform: none !important;
+        visibility: visible !important;
+    }
+
+    .offcanvas.hiding {
+        transform: translateX(-100%) !important;
+    }
+}

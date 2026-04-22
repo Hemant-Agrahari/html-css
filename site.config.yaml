@@ -1,0 +1,15 @@
+site_name: "EZ Plumbing USA"
+base_url: "https://www.ezplumbingusa.com"
+language: en
+default_robots: "index, follow"
+default_og_type: website
+default_og_image: "/assets/images/ez-plumbing-logo.svg"
+og_site_name: "EZ Plumbing USA"
+twitter_site: "@ezplumbingusa"
+generate_sitemap: true
+generate_robots: true
+
+# Business Info
+phone: "+1 (555) 123-4567"
+email: "info@ezplumbingusa.com"
+address: "123 Main Street, Houston, TX 77001"
