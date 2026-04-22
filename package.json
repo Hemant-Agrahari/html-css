@@ -1,0 +1,26 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "main": "build.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemant-Agrahari/html-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemant-Agrahari/html-css/issues"
+  },
+  "homepage": "https://github.com/Hemant-Agrahari/html-css#readme",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
