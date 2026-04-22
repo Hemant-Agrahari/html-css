@@ -252,3 +252,25 @@ if (pageToBuild === "all") {
 } else {
   buildPage(pageToBuild);
 }
+
+// Ensure Vercel has all assets in dist
+const copyRecursiveSync = function(src, dest) {
+  if (!fs.existsSync(src)) return;
+  const exists = fs.existsSync(dest);
+  const stats = exists && fs.statSync(dest);
+  const isDirectory = exists && stats.isDirectory();
+  if (exists && isDirectory) {
+    fs.readdirSync(src).forEach(function(childItemName) {
+      copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
+    });
+  } else {
+    if (!fs.existsSync(path.dirname(dest))) fs.mkdirSync(path.dirname(dest), {recursive: true});
+    fs.copyFileSync(src, dest);
+  }
+};
+
+console.log("Copying static assets for server deployment...");
+copyRecursiveSync(path.join(__dirname, "assets"), path.join(__dirname, "dist", "assets"));
+copyRecursiveSync(path.join(__dirname, "shared"), path.join(__dirname, "dist", "shared"));
+copyRecursiveSync(path.join(__dirname, "pages"), path.join(__dirname, "dist", "pages"));
+console.log("Build complete.");
